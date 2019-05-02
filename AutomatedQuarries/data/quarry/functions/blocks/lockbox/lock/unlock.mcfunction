@@ -1,0 +1,1 @@
+execute as @s at @s run data modify block ~ ~0.5 ~ Lock set value ""

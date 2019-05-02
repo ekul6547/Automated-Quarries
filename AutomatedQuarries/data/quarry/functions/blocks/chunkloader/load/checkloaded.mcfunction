@@ -1,0 +1,1 @@
+execute at @s store success score @s q_Loaded run forceload query ~ ~

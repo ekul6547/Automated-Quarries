@@ -1,0 +1,13 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/spawn_egg"
+    },
+    "overrides": [
+        { "predicate": {"custom_model_data": 0}, "model": "quarry:block/workbench"},
+        { "predicate": {"custom_model_data": 100}, "model": "quarry:block/workbench"},
+        { "predicate": {"custom_model_data": 101}, "model": "quarry:block/quarry"},
+        { "predicate": {"custom_model_data": 102}, "model": "quarry:block/chunkloader"},
+        { "predicate": {"custom_model_data": 103}, "model": "quarry:block/lockbox"}
+    ]
+}

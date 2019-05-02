@@ -1,0 +1,4 @@
+#execute at @s run summon minecraft:item ~ ~1 ~ {Item:{id:"minecraft:iron_nugget",Count:1b,tag:{display:{Name:"{\"text\":\"REPLACENAME\"}",Lore:["Use this to open any Locked Box™️"]},Enchantments:[{id:"minecraft:looting",lvl:9001},{id:"minecraft:vanishing_curse",lvl:1}]}},Tags:["masterkeyitem"]}
+#execute at @s run data modify entity @e[tag=masterkeyitem,sort=nearest,limit=1] Item.tag.display.Name set from entity @e[tag=q_master_lock,limit=1] CustomName
+tellraw @s ["",{"text":"Current master lock is: "},{"nbt":"CustomName","entity":"@e[tag=q_master_lock,limit=1]","color":"red"}]
+tellraw @s ["",{"text":"Rename an item to everything in "},{"text":"red","color":"red"},{"text":", brackets, \" and everything."}]

@@ -1,0 +1,16 @@
+execute at @s if score #system QuarryColor matches 0 run particle dust 1.0 1.0 1.0 1.0 ~ ~ ~ 0 10 0 0 10
+execute at @s if score #system QuarryColor matches 1 run particle dust 1.0 0.5 0.0 1.0 ~ ~ ~ 0 10 0 0 10
+execute at @s if score #system QuarryColor matches 2 run particle dust 1.0 0.0 0.5 1.0 ~ ~ ~ 0 10 0 0 10
+execute at @s if score #system QuarryColor matches 3 run particle dust 0.6 0.6 1.0 1.0 ~ ~ ~ 0 10 0 0 10
+execute at @s if score #system QuarryColor matches 4 run particle dust 1.0 1.0 0.0 1.0 ~ ~ ~ 0 10 0 0 10
+execute at @s if score #system QuarryColor matches 5 run particle dust 0.0 1.0 0.0 1.0 ~ ~ ~ 0 10 0 0 10
+execute at @s if score #system QuarryColor matches 6 run particle dust 1.0 0.6 0.9 1.0 ~ ~ ~ 0 10 0 0 10
+execute at @s if score #system QuarryColor matches 7 run particle dust 0.4 0.4 0.4 1.0 ~ ~ ~ 0 10 0 0 10
+execute at @s if score #system QuarryColor matches 8 run particle dust 0.7 0.7 0.7 1.0 ~ ~ ~ 0 10 0 0 10
+execute at @s if score #system QuarryColor matches 9 run particle dust 0.0 0.9 0.9 1.0 ~ ~ ~ 0 10 0 0 10
+execute at @s if score #system QuarryColor matches 10 run particle dust 0.9 0.0 0.9 1.0 ~ ~ ~ 0 10 0 0 10
+execute at @s if score #system QuarryColor matches 11 run particle dust 0.0 0.0 1.0 1.0 ~ ~ ~ 0 10 0 0 10
+execute at @s if score #system QuarryColor matches 12 run particle dust 0.4 0.2 0.0 1.0 ~ ~ ~ 0 10 0 0 10
+execute at @s if score #system QuarryColor matches 13 run particle dust 0.0 0.5 0.0 1.0 ~ ~ ~ 0 10 0 0 10
+execute at @s if score #system QuarryColor matches 14 run particle dust 0.9 0.0 0.0 1.0 ~ ~ ~ 0 10 0 0 10
+execute at @s if score #system QuarryColor matches 15 run particle dust 0.0 0.0 0.0 1.0 ~ ~ ~ 0 10 0 0 10

@@ -1,0 +1,1 @@
+execute as @s if entity @s[nbt=!{SelectedItem:{tag:{QuarryReplace:1}}}] run function quarry:blocks/workbench/itemcount
