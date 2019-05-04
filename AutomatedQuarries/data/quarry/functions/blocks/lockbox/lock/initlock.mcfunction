@@ -1,5 +1,4 @@
-data modify entity @s ArmorItems[{id:"minecraft:paper"}].tag.UUIDMost set from entity @p UUIDMost
-data modify entity @s ArmorItems[{id:"minecraft:paper"}].tag.UUIDLeast set from entity @p UUIDLeast
+execute store result score @s q_UUIDMost run data get entity @p UUIDMost
+execute store result score @s q_UUIDLeast run data get entity @p UUIDLeast
 execute as @s run function quarry:blocks/lockbox/lock/lock
-
 tag @s remove q_UnLockBox

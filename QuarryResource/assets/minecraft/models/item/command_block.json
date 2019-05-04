@@ -13,6 +13,8 @@
         { "predicate": {"custom_model_data": 100}, "model": "quarry:block/workbench_inverse"},
 		{ "predicate": {"custom_model_data": 101}, "model": "quarry:block/quarry_inverse"},
 		{ "predicate": {"custom_model_data": 102}, "model": "quarry:block/chunkloader_inverse"},
-		{ "predicate": {"custom_model_data": 103}, "model": "quarry:block/lockbox_inverse"}
+		{ "predicate": {"custom_model_data": 103}, "model": "quarry:block/lockbox_inverse"},
+        { "predicate": {"custom_model_data": 104}, "model": "quarry:block/charger_inverse"},
+		{ "predicate": {"custom_model_data": 105}, "model": "quarry:block/unlockbox_inverse"}
     ]
 }

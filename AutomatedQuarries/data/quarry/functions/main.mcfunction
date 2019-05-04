@@ -5,3 +5,4 @@ execute unless entity @e[tag=q_master_lock] run summon minecraft:squid 0 -20 0 {
 execute as @a if score @s QuarryBook matches 1.. run function quarry:book/summon
 scoreboard players enable @a QuarryBook
 function quarry:blocks/blockmain
+function quarry:items/itemmain

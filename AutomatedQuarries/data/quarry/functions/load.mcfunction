@@ -16,6 +16,9 @@ scoreboard objectives add QuarryBook trigger
 scoreboard objectives add q_Age dummy
 scoreboard objectives add q_direction dummy
 
+scoreboard objectives add q_sneaking minecraft.custom:minecraft.sneak_time
+scoreboard objectives add q_timeup minecraft.custom:minecraft.time_since_death
+
 scoreboard objectives add QuarrySlotCount dummy
 scoreboard objectives add WorkbenchCount dummy
 scoreboard objectives add QuarryCount dummy
@@ -54,6 +57,9 @@ scoreboard objectives add q_place_z dummy
 scoreboard objectives add q_Seconds dummy
 scoreboard objectives add q_Loaded dummy
 
+#Lock
+scoreboard objectives add q_UUIDMost dummy
+scoreboard objectives add q_UUIDLeast dummy
 
 #Constants
 scoreboard players set #quarry q_Age 40
@@ -61,3 +67,4 @@ scoreboard players set #quarry QuarrySpeedSize 8
 #How many ticks added per ender eye - default 2400 (2 minutes)
 scoreboard players set #chunk q_Age 2400
 scoreboard players set #lock QuarryCount 0
+scoreboard players set #drill qmax_x 1561

@@ -1,0 +1,1 @@
+execute as @a if entity @s[nbt={SelectedItem:{id:"minecraft:spider_eye",tag:{CustomModelData:100}}}] if score @s q_timeup matches 100.. run function quarry:items/battery/updatepower

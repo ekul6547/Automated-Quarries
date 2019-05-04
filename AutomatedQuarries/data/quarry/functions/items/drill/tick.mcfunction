@@ -1,0 +1,1 @@
+execute as @a if data entity @s SelectedItem.tag{CustomModelData:101,Damage:1560} run function quarry:items/drill/replace
