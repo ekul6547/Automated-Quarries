@@ -62,6 +62,7 @@ scoreboard objectives add q_UUIDMost dummy
 scoreboard objectives add q_UUIDLeast dummy
 
 #Constants
+scoreboard players set #system q_Loaded 1
 scoreboard players set #quarry q_Age 40
 scoreboard players set #quarry QuarrySpeedSize 8
 #How many ticks added per ender eye - default 2400 (2 minutes)
