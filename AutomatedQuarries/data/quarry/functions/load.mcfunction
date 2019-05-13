@@ -1,9 +1,13 @@
-tellraw @a[gamemode=creative] ["",{"text":"Loaded [Automated Quarries]","color":"white"},{"text":" by Re:Lapis","color":"gray"}]
-
 #General X,Y,Z for current position
 scoreboard objectives add q_X dummy
 scoreboard objectives add q_Y dummy
 scoreboard objectives add q_Z dummy
+scoreboard objectives add q_actX dummy
+scoreboard objectives add q_actY dummy
+scoreboard objectives add q_actZ dummy
+scoreboard objectives add q_preX dummy
+scoreboard objectives add q_preY dummy
+scoreboard objectives add q_preZ dummy
 scoreboard objectives add q_chunkX dummy
 scoreboard objectives add q_chunkY dummy
 scoreboard objectives add q_chunkZ dummy
@@ -12,11 +16,13 @@ scoreboard objectives add q_chunkZ dummy
 scoreboard objectives add q_const dummy
 
 scoreboard objectives add QuarryBook trigger
+scoreboard objectives add QuarryAdmin trigger
 
 scoreboard objectives add q_Age dummy
 scoreboard objectives add q_direction dummy
 
 scoreboard objectives add q_sneaking minecraft.custom:minecraft.sneak_time
+scoreboard objectives add q_step_sneaking minecraft.custom:minecraft.sneak_time
 scoreboard objectives add q_timeup minecraft.custom:minecraft.time_since_death
 
 scoreboard objectives add QuarrySlotCount dummy
@@ -61,6 +67,19 @@ scoreboard objectives add q_Loaded dummy
 scoreboard objectives add q_UUIDMost dummy
 scoreboard objectives add q_UUIDLeast dummy
 
+#Dampener
+scoreboard objectives add q_d_loop_start dummy
+scoreboard objectives add q_d_index dummy
+scoreboard objectives add q_d_sneak minecraft.custom:minecraft.sneak_time
+scoreboard objectives add q_d_current dummy
+scoreboard objectives add q_d_result dummy
+scoreboard objectives add q_d_timer minecraft.custom:minecraft.time_since_death
+scoreboard objectives add q_d_X dummy
+scoreboard objectives add q_d_Z dummy
+scoreboard objectives add q_d_in dummy
+scoreboard objectives add q_d_pre dummy
+scoreboard objectives add OwnerOptions trigger "Owner Options"
+
 #Constants
 scoreboard players set #system q_Loaded 1
 scoreboard players set #quarry q_Age 40
@@ -69,3 +88,7 @@ scoreboard players set #quarry QuarrySpeedSize 8
 scoreboard players set #chunk q_Age 2400
 scoreboard players set #lock QuarryCount 0
 scoreboard players set #drill qmax_x 1561
+scoreboard players set @a q_d_current 0
+
+
+tellraw @a ["",{"text":"Loaded "},{"text":"[Automated Quarries] v0.4","clickEvent":{"action":"run_command","value":"/function quarry:book/summonmain"},"hoverEvent":{"action":"show_text","value":"Click here to get the tutorial book"}},{"text":" By RE:Lapis","color":"gray"}]

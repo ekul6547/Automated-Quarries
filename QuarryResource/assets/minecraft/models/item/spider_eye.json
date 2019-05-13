@@ -5,6 +5,7 @@
     },
     "overrides": [
         { "predicate": {"custom_model_data": 100}, "model": "quarry:item/battery"},
-        { "predicate": {"custom_model_data": 101}, "model": "quarry:item/drill_finished"}
+        { "predicate": {"custom_model_data": 101}, "model": "quarry:item/drill_finished"},
+        { "predicate": {"custom_model_data": 102}, "model": "quarry:item/katana_finished"}
 	]
 }

@@ -1,0 +1,1 @@
+effect give @s minecraft:dolphins_grace 2 0 true

@@ -6,6 +6,7 @@
         {
             "from": [0, 0, 0],
             "to": [25.7, 25.7, 25.7],
+			"shade":false,
             "faces": {
                 "north": {"uv": [0, 0, 16, 16], "texture": "#0"},
                 "east": {"uv": [0, 0, 16, 16], "texture": "#0"},

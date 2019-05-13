@@ -1,0 +1,29 @@
+Mining dampener:
+start #damp q_d_current = 1
+Dampen: {
+    Owner: {UUIDMost, UUIDLeast},
+    Joined: [] - {UUIDMost, UUIDLeast, init, current}
+}
+Owner Places block
+- register to owner tag - UUIDMost + UUIDLeast
+Player sneaks onto block
+- if their q_d_current = 0
+    - set q_d_current = #damp q_d_current
+    - #damp q_d_current += 1
+    - send message to owner @a 
+        - set #damp QuarryIgnore to 0
+        - each @a while QuarryIgnore = 0
+            - test UUIDMost + UUIDLeast (like lockbox)
+            - if successful
+                - set #damp QuarryIgnore to 1
+                - set owner q_d_current = to player sneaking q_d_current
+                - send message to owner to confirm q_d_current score
+
+When Owner Confirms
+- player with identical q_d_current gets added to dampener ArmorItems[{id:paper}].tag.Dampen.players[] append {UUIDMost, UUIDLeast} (appned blank then players[-1] merge)
+- set both players q_d_current to 0
+
+test for player in array:
+- {UUIDMost, UUIDLeast, init, current}
+- foreach
+    - 

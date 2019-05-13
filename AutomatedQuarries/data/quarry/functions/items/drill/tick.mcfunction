@@ -1,1 +1,3 @@
-execute as @a if data entity @s SelectedItem.tag{CustomModelData:101,Damage:1560} run function quarry:items/drill/replace
+execute as @a if data entity @s SelectedItem{id:"minecraft:diamond_pickaxe"}.tag{CustomModelData:101,Damage:1560} run function quarry:items/drill/replace
+execute as @a if data entity @s SelectedItem{id:"minecraft:diamond_pickaxe"}.tag{CustomModelData:101,Damage:1559} run function quarry:items/drill/replace
+execute as @a if data entity @s SelectedItem{id:"minecraft:diamond_pickaxe"}.tag{CustomModelData:101,Damage:1558} run function quarry:items/drill/replace

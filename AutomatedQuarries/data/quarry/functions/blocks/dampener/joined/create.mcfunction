@@ -1,0 +1,2 @@
+data modify entity @s ArmorItems[0] set value {id:"minecraft:paper",Count:1b,tag:{display:{Name:"{\"text\":\"a protected area\"}"},Dampen:{Owner:{UUIDLeast:0L,UUIDMost:0L},JoinedArray:{Array:[{UL:0L,UM:0L,index:0}],Count:1}},UUIDCompare:{UUIDMost:0L,UUIDLeast:0L}}}
+execute as @s run scoreboard players set @s q_d_loop_start -1

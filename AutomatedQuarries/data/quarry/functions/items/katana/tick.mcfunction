@@ -1,0 +1,3 @@
+execute as @a if data entity @s SelectedItem{id:"minecraft:diamond_sword"}.tag{CustomModelData:102,Damage:1560} run function quarry:items/katana/replace
+execute as @a if data entity @s SelectedItem{id:"minecraft:diamond_sword"}.tag{CustomModelData:102,Damage:1559} run function quarry:items/katana/replace
+execute as @a if data entity @s SelectedItem{id:"minecraft:diamond_sword"}.tag{CustomModelData:102,Damage:1558} run function quarry:items/katana/replace

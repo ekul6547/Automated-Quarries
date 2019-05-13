@@ -10,6 +10,7 @@
         { "predicate": {"custom_model_data": 102}, "model": "quarry:block/chunkloader"},
         { "predicate": {"custom_model_data": 103}, "model": "quarry:block/lockbox"},
         { "predicate": {"custom_model_data": 104}, "model": "quarry:block/charger"},
-		{ "predicate": {"custom_model_data": 105}, "model": "quarry:block/unlockbox"}
+		{ "predicate": {"custom_model_data": 105}, "model": "quarry:block/unlockbox"},
+		{ "predicate": {"custom_model_data": 106}, "model": "quarry:block/chunkloader"}
     ]
 }
