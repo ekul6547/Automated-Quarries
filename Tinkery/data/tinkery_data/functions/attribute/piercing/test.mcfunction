@@ -1,0 +1,3 @@
+execute at @s if data block ~ ~0.6 ~ Items[{Slot:15b,id:"minecraft:quartz"}] unless data block ~ ~0.6 ~ Items[{Slot:11b}].tag.Tinkery.Addons[{id:"piercing"}] unless data block ~ ~0.6 ~ Items[{Slot:11b}].tag.Tinkery.Addons[{id:"multi_shot"}] run function tinkery_data:attribute/piercing/init
+
+execute at @s if data block ~ ~0.6 ~ Items[{Slot:15b,id:"minecraft:quartz"}] unless data block ~ ~0.6 ~ Items[{Slot:11b}].tag.Tinkery.Addons[{id:"multi_shot"}] run function tinkery_data:attribute/piercing/add

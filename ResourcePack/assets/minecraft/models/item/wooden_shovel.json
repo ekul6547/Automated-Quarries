@@ -1,0 +1,16 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/wooden_shovel"
+    },
+    "overrides": [
+		{ "predicate": { "custom_model_data": 1000 }, "model": "tinkery:item/shovel/wood/_default"},
+		{ "predicate": { "custom_model_data": 1001 }, "model": "tinkery:item/shovel/wood/d"},
+		{ "predicate": { "custom_model_data": 1002 }, "model": "tinkery:item/shovel/wood/m"},
+		{ "predicate": { "custom_model_data": 1003 }, "model": "tinkery:item/shovel/wood/dm"},
+		{ "predicate": { "custom_model_data": 1004 }, "model": "tinkery:item/shovel/wood/s"},
+		{ "predicate": { "custom_model_data": 1005 }, "model": "tinkery:item/shovel/wood/ds"},
+		{ "predicate": { "custom_model_data": 1006 }, "model": "tinkery:item/shovel/wood/ms"},
+		{ "predicate": { "custom_model_data": 1007 }, "model": "tinkery:item/shovel/wood/dms"}
+    ]
+}

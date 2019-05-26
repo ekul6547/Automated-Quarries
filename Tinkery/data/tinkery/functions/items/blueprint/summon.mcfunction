@@ -1,0 +1,1 @@
+summon minecraft:item ~ ~1 ~ {Item:{id:"minecraft:paper",Count:1b,tag:{display:{Name:"{\"text\":\"Empty Blueprint\"}"},CustomModelData:1000,BluePrint:{id:"empty",slots:[]}}}}

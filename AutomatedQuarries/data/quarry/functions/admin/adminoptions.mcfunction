@@ -1,3 +1,0 @@
-gamerule sendCommandFeedback false
-tellraw @s ["",{"text":"\n[SUMMON MENU]","color":"dark_green","clickEvent":{"action":"run_command","value":"/function quarry:admin/summonmenu"}},{"text":"\n"},{"text":"[DESTROY AREA]","color":"red","clickEvent":{"action":"run_command","value":"/function quarry:admin/destroyarea"},"hoverEvent":{"action":"show_text","value":"This will destroy all area blocks within a 5 block radius."}},{"text":"\n"},{"text":"[UNINSTALL]","color":"dark_red","clickEvent":{"action":"run_command","value":"/function quarry:admin/confirmuninstall"}},{"text":"\n "}]
-scoreboard players reset @s QuarryAdmin

@@ -1,0 +1,22 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/spawn_egg"
+    },
+    "overrides": [
+        { "predicate": {"custom_model_data": 0}, "model": "lapis:block/workbench"},
+        { "predicate": {"custom_model_data": 100}, "model": "lapis:block/workbench"},
+        { "predicate": {"custom_model_data": 101}, "model": "quarry:block/quarry"},
+        { "predicate": {"custom_model_data": 102}, "model": "quarry:block/chunkloader"},
+        { "predicate": {"custom_model_data": 103}, "model": "lapis:block/lockbox"},
+        { "predicate": {"custom_model_data": 104}, "model": "quarry:block/charger"},
+		{ "predicate": {"custom_model_data": 105}, "model": "lapis:block/unlockbox"},
+		{ "predicate": {"custom_model_data": 106}, "model": "quarry:block/chunkloader"},
+		{ "predicate": {"custom_model_data": 150}, "model": "storage:block/controller"},
+		{ "predicate": {"custom_model_data": 151}, "model": "storage:block/terminal"},
+		{ "predicate": {"custom_model_data": 152}, "model": "storage:block/server"},
+        { "predicate": {"custom_model_data": 1000}, "model": "tinkery:block/modifier"},
+        { "predicate": {"custom_model_data": 1001}, "model": "tinkery:block/constructor"},
+        { "predicate": {"custom_model_data": 1002}, "model": "tinkery:block/blueprinter"}
+    ]
+}

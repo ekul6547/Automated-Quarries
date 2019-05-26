@@ -1,0 +1,1 @@
+execute as @s if entity @s[gamemode=!creative] if score @s t_tool_used matches 1.. run function tinkery:damage/damagemain

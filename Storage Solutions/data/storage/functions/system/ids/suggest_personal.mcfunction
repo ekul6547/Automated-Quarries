@@ -1,0 +1,2 @@
+effect give @e[tag=s_Controller,distance=..1,sort=nearest,limit=1] minecraft:glowing 2 0 true
+tellraw @s ["",{"text":"Click here to assign personal id to #","color":"blue","clickEvent":{"action":"run_command","value":"/trigger SystemID set -1000"}},{"score":{"name":"@e[tag=s_Controller,distance=..1,sort=nearest,limit=1]","objective":"s_id"}}]

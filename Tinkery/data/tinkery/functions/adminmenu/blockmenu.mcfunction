@@ -1,0 +1,2 @@
+gamerule sendCommandFeedback false
+tellraw @s ["",{"text":"[Modifier]","color":"green","clickEvent":{"action":"run_command","value":"/function tinkery:blocks/modifier/summon"}},{"text":"  [Constructor]","color":"green","clickEvent":{"action":"run_command","value":"/function tinkery:blocks/constructor/summon"}},{"text":"  [Blueprint Maker]","color":"green","clickEvent":{"action":"run_command","value":"/function tinkery:blocks/blueprinter/summon"}}]

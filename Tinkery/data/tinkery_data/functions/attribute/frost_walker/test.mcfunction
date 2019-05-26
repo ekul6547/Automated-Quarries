@@ -1,0 +1,3 @@
+execute at @s if data block ~ ~0.6 ~ Items[{Slot:15b,id:"minecraft:blue_ice"}] unless data block ~ ~0.6 ~ Items[{Slot:11b}].tag.Tinkery.Addons[{id:"frost_walker"}] unless data block ~ ~0.6 ~ Items[{Slot:11b}].tag.Tinkery.Addons[{id:"depth_strider"}] run function tinkery_data:attribute/frost_walker/init
+
+execute at @s if data block ~ ~0.6 ~ Items[{Slot:15b,id:"minecraft:blue_ice"}] run function tinkery_data:attribute/frost_walker/add

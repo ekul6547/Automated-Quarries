@@ -1,1 +1,0 @@
-summon minecraft:item ~ ~0.5 ~ {Item:{id:"minecraft:squid_spawn_egg",Count:1b,tag:{display:{Name:"{\"text\":\"Machine Workbench\"}"},CustomModelData:100,EntityTag:{id:"minecraft:armor_stand",Marker:1b,NoAI:1,Silent:1b,Invulnerable:1b,NoGravity:1b,NoBasePlate:1b,Invisible:1,DeathLootTable:"empty",Tags:["q_Workbench_p"]},QuarryReplace:1}}}

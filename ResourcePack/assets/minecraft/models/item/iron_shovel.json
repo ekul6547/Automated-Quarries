@@ -1,0 +1,16 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/iron_shovel"
+    },
+    "overrides": [
+		{ "predicate": { "custom_model_data": 1000 }, "model": "tinkery:item/shovel/iron/_default"},
+		{ "predicate": { "custom_model_data": 1001 }, "model": "tinkery:item/shovel/iron/d"},
+		{ "predicate": { "custom_model_data": 1002 }, "model": "tinkery:item/shovel/iron/m"},
+		{ "predicate": { "custom_model_data": 1003 }, "model": "tinkery:item/shovel/iron/dm"},
+		{ "predicate": { "custom_model_data": 1004 }, "model": "tinkery:item/shovel/iron/s"},
+		{ "predicate": { "custom_model_data": 1005 }, "model": "tinkery:item/shovel/iron/ds"},
+		{ "predicate": { "custom_model_data": 1006 }, "model": "tinkery:item/shovel/iron/ms"},
+		{ "predicate": { "custom_model_data": 1007 }, "model": "tinkery:item/shovel/iron/dms"}
+    ]
+}

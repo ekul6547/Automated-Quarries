@@ -1,2 +1,0 @@
-gamerule sendCommandFeedback false
-tellraw @s ["",{"text":"\n"},{"text":"Are you sure you want to uninstall?\nThis will remove all objectives and disable the datapack\nClick ","color":"dark_red"},{"text":"[HERE]","color":"dark_blue","clickEvent":{"action":"run_command","value":"/function quarry:uninstall"}},{"text":" to confirm the uninstall","color":"dark_red"}]

@@ -1,0 +1,2 @@
+gamerule sendCommandFeedback false
+tellraw @s ["",{"text":"[Quarry]","color":"dark_green","clickEvent":{"action":"run_command","value":"/function quarry:blocks/quarry/summon"}},{"text":"  ","color":"dark_green"},{"text":"[Charger]","color":"dark_green","clickEvent":{"action":"run_command","value":"/function quarry:blocks/charger/summon"}},{"text":"  ","color":"dark_green"},{"text":"[Dampener]","color":"dark_green","clickEvent":{"action":"run_command","value":"/function quarry:blocks/dampener/summon"}}]

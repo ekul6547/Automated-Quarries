@@ -1,0 +1,1 @@
+execute at @s if data block ~ ~0.6 ~ Items[{Slot:15b,id:"minecraft:iron_bars"}] if data block ~ ~0.6 ~ Items[{Slot:11b}].tag.Tinkery{Material:"chainmail"} run function tinkery_data:attribute/repair/chainmail/add

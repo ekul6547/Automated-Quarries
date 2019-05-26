@@ -1,0 +1,24 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/iron_axe"
+    },
+    "overrides": [
+		{ "predicate": { "custom_model_data": 1000 }, "model": "tinkery:item/axe/iron/_default"},
+		{ "predicate": { "custom_model_data": 1001 }, "model": "tinkery:item/axe/iron/d"},
+		{ "predicate": { "custom_model_data": 1002 }, "model": "tinkery:item/axe/iron/m"},
+		{ "predicate": { "custom_model_data": 1003 }, "model": "tinkery:item/axe/iron/dm"},
+		{ "predicate": { "custom_model_data": 1004 }, "model": "tinkery:item/axe/iron/s"},
+		{ "predicate": { "custom_model_data": 1005 }, "model": "tinkery:item/axe/iron/ds"},
+		{ "predicate": { "custom_model_data": 1006 }, "model": "tinkery:item/axe/iron/ms"},
+		{ "predicate": { "custom_model_data": 1007 }, "model": "tinkery:item/axe/iron/dms"},
+		{ "predicate": { "custom_model_data": 1008 }, "model": "tinkery:item/axe/iron/z"},
+		{ "predicate": { "custom_model_data": 1009 }, "model": "tinkery:item/axe/iron/dz"},
+		{ "predicate": { "custom_model_data": 1010 }, "model": "tinkery:item/axe/iron/mz"},
+		{ "predicate": { "custom_model_data": 1011 }, "model": "tinkery:item/axe/iron/dmz"},
+		{ "predicate": { "custom_model_data": 1012 }, "model": "tinkery:item/axe/iron/sz"},
+		{ "predicate": { "custom_model_data": 1013 }, "model": "tinkery:item/axe/iron/dsz"},
+		{ "predicate": { "custom_model_data": 1014 }, "model": "tinkery:item/axe/iron/msz"},
+		{ "predicate": { "custom_model_data": 1015 }, "model": "tinkery:item/axe/iron/dmsz"}
+    ]
+}

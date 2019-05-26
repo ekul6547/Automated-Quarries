@@ -1,0 +1,14 @@
+execute as @s at @s if score @s t_output matches 0 if data block ~ ~0.6 ~ Items[{Slot:11b}].tag.Tinkery{Type:"pickaxe"} run function #tinkery_data:attribute/pickaxe
+execute as @s at @s if score @s t_output matches 0 if data block ~ ~0.6 ~ Items[{Slot:11b}].tag.Tinkery{Type:"shovel"} run function #tinkery_data:attribute/shovel
+execute as @s at @s if score @s t_output matches 0 if data block ~ ~0.6 ~ Items[{Slot:11b}].tag.Tinkery{Type:"hoe"} run function #tinkery_data:attribute/hoe
+execute as @s at @s if score @s t_output matches 0 if data block ~ ~0.6 ~ Items[{Slot:11b}].tag.Tinkery{Type:"axe"} run function #tinkery_data:attribute/axe
+execute as @s at @s if score @s t_output matches 0 if data block ~ ~0.6 ~ Items[{Slot:11b}].tag.Tinkery{Type:"sword"} run function #tinkery_data:attribute/sword
+execute as @s at @s if score @s t_output matches 0 if data block ~ ~0.6 ~ Items[{Slot:11b}].tag.Tinkery{Type:"shield"} run function #tinkery_data:attribute/shield
+execute as @s at @s if score @s t_output matches 0 if data block ~ ~0.6 ~ Items[{Slot:11b}].tag.Tinkery{Type:"bow"} run function #tinkery_data:attribute/bow
+execute as @s at @s if score @s t_output matches 0 if data block ~ ~0.6 ~ Items[{Slot:11b}].tag.Tinkery{Type:"crossbow"} run function #tinkery_data:attribute/crossbow
+execute as @s at @s if score @s t_output matches 0 if data block ~ ~0.6 ~ Items[{Slot:11b}].tag.Tinkery{Type:"helmet"} run function #tinkery_data:attribute/helmet
+execute as @s at @s if score @s t_output matches 0 if data block ~ ~0.6 ~ Items[{Slot:11b}].tag.Tinkery{Type:"chestplate"} run function #tinkery_data:attribute/chestplate
+execute as @s at @s if score @s t_output matches 0 if data block ~ ~0.6 ~ Items[{Slot:11b}].tag.Tinkery{Type:"leggings"} run function #tinkery_data:attribute/leggings
+execute as @s at @s if score @s t_output matches 0 if data block ~ ~0.6 ~ Items[{Slot:11b}].tag.Tinkery{Type:"boots"} run function #tinkery_data:attribute/boots
+execute as @s at @s if score @s t_output matches 0 if data block ~ ~0.6 ~ Items[{Slot:11b}].tag.Tinkery{Type:"trident"} run function #tinkery_data:attribute/trident
+execute as @s at @s if score @s t_output matches 0 if data block ~ ~0.6 ~ Items[{Slot:11b}].tag.Tinkery{Type:"elytra"} run function #tinkery_data:attribute/elytra

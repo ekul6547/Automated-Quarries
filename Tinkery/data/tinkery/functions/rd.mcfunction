@@ -1,0 +1,10 @@
+scoreboard players set #tinkery t_dum0 0
+scoreboard players set #tinkery t_dum1 0
+scoreboard players set #tinkery t_dum2 0
+scoreboard players set #tinkery t_dum3 0
+scoreboard players set #tinkery t_dum4 0
+scoreboard players set #tinkery t_dum5 0
+scoreboard players set #tinkery t_dum6 0
+scoreboard players set #tinkery t_dum7 0
+scoreboard players set #tinkery t_dum8 0
+scoreboard players set #tinkery t_dum9 0

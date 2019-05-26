@@ -1,0 +1,1 @@
+execute at @s if data block ~ ~0.6 ~ Items[{Slot:15b,id:"minecraft:cobblestone"}] if data block ~ ~0.6 ~ Items[{Slot:11b}].tag.Tinkery{Material:"stone"} run function tinkery_data:attribute/repair/stone/add

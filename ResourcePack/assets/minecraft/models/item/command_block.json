@@ -1,0 +1,27 @@
+{
+    "parent": "block/cube_directional",
+    "textures": {
+        "particle": "block/command_block_back",
+        "down": "block/command_block_side",
+        "up": "block/command_block_side",
+        "north": "block/command_block_front",
+        "east": "block/command_block_side",
+        "south": "block/command_block_back",
+        "west": "block/command_block_side"
+    },
+    "overrides": [
+        { "predicate": {"custom_model_data": 100}, "model": "lapis:block/workbench_inverse"},
+		{ "predicate": {"custom_model_data": 101}, "model": "quarry:block/quarry_inverse"},
+		{ "predicate": {"custom_model_data": 102}, "model": "quarry:block/chunkloader_inverse"},
+		{ "predicate": {"custom_model_data": 103}, "model": "lapis:block/lockbox_inverse"},
+        { "predicate": {"custom_model_data": 104}, "model": "quarry:block/charger_inverse"},
+		{ "predicate": {"custom_model_data": 105}, "model": "lapis:block/unlockbox_inverse"},
+		{ "predicate": {"custom_model_data": 106}, "model": "quarry:block/chunkloader_inverse"},
+		{ "predicate": {"custom_model_data": 150}, "model": "storage:block/controller_inverse"},
+		{ "predicate": {"custom_model_data": 151}, "model": "storage:block/terminal_inverse"},
+		{ "predicate": {"custom_model_data": 152}, "model": "storage:block/server_inverse"},
+        { "predicate": {"custom_model_data": 1000}, "model": "tinkery:block/modifier_inverse"},
+        { "predicate": {"custom_model_data": 1001}, "model": "tinkery:block/constructor_inverse"},
+        { "predicate": {"custom_model_data": 1002}, "model": "tinkery:block/blueprinter_inverse"}
+    ]
+}

@@ -1,8 +1,3 @@
-execute as @e[tag=q_Block,type=minecraft:armor_stand,nbt={Fire:0s}] run data merge entity @s {Fire:32767}
-
-#WorkBench
-schedule function quarry:blocks/workbench/tick 1t
-
 #Quarry
 schedule function quarry:blocks/quarry/tick 1t
 

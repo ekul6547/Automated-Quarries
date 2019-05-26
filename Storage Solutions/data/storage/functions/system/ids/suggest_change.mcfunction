@@ -1,0 +1,3 @@
+scoreboard players enable @s SystemID
+effect give @e[tag=s_suggestID,distance=..1,sort=nearest,limit=1] minecraft:glowing 2 0 true
+tellraw @s ["",{"text":"\nThe current SystemID of "},{"selector":"@e[tag=s_suggestID,distance=..1,sort=nearest,limit=1]"},{"text":" is "},{"score":{"name":"@e[tag=s_suggestID,distance=..1,sort=nearest,limit=1]","objective":"s_id"}},{"text":"\nClick here to set the SystemID ","color":"blue","clickEvent":{"action":"suggest_command","value":"/trigger SystemID set "}}]

@@ -1,0 +1,2 @@
+gamerule sendCommandFeedback false
+tellraw @s ["",{"text":"[Controller] ","color":"gold","clickEvent":{"action":"run_command","value":"/function storage:blocks/controller/summon"}},{"text":" [Terminal] ","color":"gold","clickEvent":{"action":"run_command","value":"/function storage:blocks/terminal/summon"}},{"text":" [Server]","color":"gold","clickEvent":{"action":"run_command","value":"/function storage:blocks/server/summon"}}]

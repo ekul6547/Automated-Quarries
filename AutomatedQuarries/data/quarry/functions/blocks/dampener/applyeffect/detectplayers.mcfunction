@@ -1,5 +1,7 @@
 #Do for all players within 48 blocks
-execute as @s run function quarry:util/savepos
+gamerule sendCommandFeedback false
+execute as @s run function lapis:util/savepos
 execute as @s run function quarry:blocks/dampener/applyeffect/playerpos
-execute as @a if score @s q_d_X matches -50..50 if score @s q_d_Z matches -50..50 run tag @s add q_dampen_queue
+tag @a[scores={q_d_X=-50..50,q_d_Z=-50..50}] add q_dampen_queue
 execute as @s at @s run function quarry:blocks/dampener/applyeffect/testplayers
+gamerule sendCommandFeedback true

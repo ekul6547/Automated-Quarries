@@ -1,0 +1,2 @@
+gamerule sendCommandFeedback false
+tellraw @s ["",{"text":"\n[DESTROY AREAS]","color":"red","clickEvent":{"action":"run_command","value":"/function quarry:adminmenu/destroyarea"},"hoverEvent":{"action":"show_text","value":"This will destroy all area blocks within a 5 block radius."}}]

@@ -1,0 +1,3 @@
+execute at @s if data block ~ ~0.6 ~ Items[{Slot:15b,id:"minecraft:slime_ball"}] unless data block ~ ~0.6 ~ Items[{Slot:11b}].tag.Tinkery.Addons[{id:"riptide"}] unless data block ~ ~0.6 ~ Items[{Slot:11b}].tag.Tinkery.Addons[{id:"loyalty"}] unless data block ~ ~0.6 ~ Items[{Slot:11b}].tag.Tinkery.Addons[{id:"channeling"}] run function tinkery_data:attribute/riptide/init
+
+execute at @s if data block ~ ~0.6 ~ Items[{Slot:15b,id:"minecraft:slime_ball"}] unless data block ~ ~0.6 ~ Items[{Slot:11b}].tag.Tinkery.Addons[{id:"loyalty"}] unless data block ~ ~0.6 ~ Items[{Slot:11b}].tag.Tinkery.Addons[{id:"channeling"}] run function tinkery_data:attribute/riptide/add

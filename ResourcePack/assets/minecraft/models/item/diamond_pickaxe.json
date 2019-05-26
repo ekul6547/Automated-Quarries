@@ -1,0 +1,17 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/diamond_pickaxe"
+    },
+    "overrides": [
+        { "predicate": {"custom_model_data": 101}, "model": "quarry:item/drill"},
+        { "predicate": {"custom_model_data": 1000}, "model": "tinkery:item/pickaxe/diamond/_default"},
+        { "predicate": {"custom_model_data": 1001}, "model": "tinkery:item/pickaxe/diamond/d"},
+        { "predicate": {"custom_model_data": 1002}, "model": "tinkery:item/pickaxe/diamond/m"},
+        { "predicate": {"custom_model_data": 1003}, "model": "tinkery:item/pickaxe/diamond/dm"},
+        { "predicate": {"custom_model_data": 1004}, "model": "tinkery:item/pickaxe/diamond/s"},
+        { "predicate": {"custom_model_data": 1005}, "model": "tinkery:item/pickaxe/diamond/ds"},
+        { "predicate": {"custom_model_data": 1006}, "model": "tinkery:item/pickaxe/diamond/ms"},
+        { "predicate": {"custom_model_data": 1007}, "model": "tinkery:item/pickaxe/diamond/dms"}
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/stone_pickaxe"
+    },
+    "overrides": [
+        { "predicate": {"custom_model_data": 1000}, "model": "tinkery:item/pickaxe/stone/_default"},
+        { "predicate": {"custom_model_data": 1001}, "model": "tinkery:item/pickaxe/stone/d"},
+        { "predicate": {"custom_model_data": 1002}, "model": "tinkery:item/pickaxe/stone/m"},
+        { "predicate": {"custom_model_data": 1003}, "model": "tinkery:item/pickaxe/stone/dm"},
+        { "predicate": {"custom_model_data": 1004}, "model": "tinkery:item/pickaxe/stone/s"},
+        { "predicate": {"custom_model_data": 1005}, "model": "tinkery:item/pickaxe/stone/ds"},
+        { "predicate": {"custom_model_data": 1006}, "model": "tinkery:item/pickaxe/stone/ms"},
+        { "predicate": {"custom_model_data": 1007}, "model": "tinkery:item/pickaxe/stone/dms"}
+    ]
+}

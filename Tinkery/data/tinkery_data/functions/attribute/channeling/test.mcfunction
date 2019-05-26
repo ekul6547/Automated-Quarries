@@ -1,0 +1,1 @@
+execute at @s if data block ~ ~0.6 ~ Items[{Slot:15b,id:"minecraft:end_rod"}] unless data block ~ ~0.6 ~ Items[{Slot:11b}].tag.Tinkery.Addons[{id:"channeling"}] unless data block ~ ~0.6 ~ Items[{Slot:11b}].tag.Tinkery.Addons[{id:"riptide"}] run function tinkery_data:attribute/channeling/init

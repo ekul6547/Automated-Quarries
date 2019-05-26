@@ -1,35 +1,17 @@
 kill @e[tag=q_Block]
 kill @e[tag=q_kill_uni]
-tellraw @a ["",{"text":"Uninstalling [Automated Quarries]","color":"white"},{"text":" by Re:Lapis","color":"gray"}]
-#General X,Y,Z for current position
-scoreboard objectives remove q_X
-scoreboard objectives remove q_Y
-scoreboard objectives remove q_Z
-scoreboard objectives remove q_actX
-scoreboard objectives remove q_actY
-scoreboard objectives remove q_actZ
-scoreboard objectives remove q_preX
-scoreboard objectives remove q_preY
-scoreboard objectives remove q_preZ
-scoreboard objectives remove q_chunkX
-scoreboard objectives remove q_chunkY
-scoreboard objectives remove q_chunkZ
-
 #Changeable constant used for math
 scoreboard objectives remove q_const
+scoreboard objectives remove q_Age
 
 scoreboard objectives remove QuarryBook
-scoreboard objectives remove QuarryAdmin
 
-scoreboard objectives remove q_Age
 scoreboard objectives remove q_direction
 
 scoreboard objectives remove q_sneaking
-scoreboard objectives remove q_step_sneaking
 scoreboard objectives remove q_timeup
 
 scoreboard objectives remove QuarrySlotCount
-scoreboard objectives remove WorkbenchCount
 scoreboard objectives remove QuarryCount
 scoreboard objectives remove QuarryColor
 
@@ -64,7 +46,6 @@ scoreboard objectives remove q_place_z
 #Chunkloader
 #This will be q_Age / 60 for display
 scoreboard objectives remove q_Seconds
-scoreboard objectives remove q_Loaded
 
 #Lock
 scoreboard objectives remove q_UUIDMost
@@ -82,3 +63,8 @@ scoreboard objectives remove q_d_Z
 scoreboard objectives remove q_d_in
 scoreboard objectives remove q_d_pre
 scoreboard objectives remove OwnerOptions
+scoreboard objectives remove RequestTrigger
+
+scoreboard players set #quarry pack_loaded -1
+
+tellraw @a ["",{"text":"Uninstalled [Automated Quarries] v0.7","color":"white"},{"text":" by Re:Lapis","color":"gray"}]

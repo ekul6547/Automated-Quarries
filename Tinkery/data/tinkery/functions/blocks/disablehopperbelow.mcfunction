@@ -1,0 +1,1 @@
+execute as @s at @s if block ~ ~ ~ minecraft:hopper run data modify block ~ ~ ~ TransferCooldown set value 2

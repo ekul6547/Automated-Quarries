@@ -1,0 +1,4 @@
+execute at @s run summon minecraft:item ~ ~1 ~ {Item:{id:"minecraft:written_book",Count:1b,tag:{pages:["[\"\",{\"text\":\"Book of Attributes\\n\",\"color\":\"green\",\"underlined\":true},{\"text\":\"By Re:Lapis\",\"color\":\"gray\",\"underlined\":false},{\"text\":\" \\nThis book will list to all of the attributes that can be applied to your tools, weapons and armor.\",\"color\":\"none\"},{\"text\":\"\\n\\nMost attributes have increasing costs after the first level.\",\"color\":\"none\"}]"],title:"Tinkery Attributes",author:"Re:Lapis"}},Tags:["t_new_attr_book"]}
+execute as @s at @s run function #tinkery_data:book_attributes
+tag @e[tag=t_new_attr_book] remove t_new_attr_book
+scoreboard players set @s TinkeryBook 0

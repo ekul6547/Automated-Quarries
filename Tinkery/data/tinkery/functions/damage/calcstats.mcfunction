@@ -1,0 +1,25 @@
+scoreboard players set @s t_tool_used 0
+scoreboard players operation @s t_tool_used > @s t_pick_wood
+scoreboard players operation @s t_tool_used > @s t_pick_stone
+scoreboard players operation @s t_tool_used > @s t_pick_iron
+scoreboard players operation @s t_tool_used > @s t_pick_gold
+scoreboard players operation @s t_tool_used > @s t_pick_diamond
+scoreboard players operation @s t_tool_used > @s t_axe_wood
+scoreboard players operation @s t_tool_used > @s t_axe_stone
+scoreboard players operation @s t_tool_used > @s t_axe_iron
+scoreboard players operation @s t_tool_used > @s t_axe_gold
+scoreboard players operation @s t_tool_used > @s t_axe_diamond
+scoreboard players operation @s t_tool_used > @s t_shovel_wood
+scoreboard players operation @s t_tool_used > @s t_shovel_stone
+scoreboard players operation @s t_tool_used > @s t_shovel_iron
+scoreboard players operation @s t_tool_used > @s t_shovel_gold
+scoreboard players operation @s t_tool_used > @s t_shovel_diamond
+scoreboard players operation @s t_tool_used > @s t_sword_wood
+scoreboard players operation @s t_tool_used > @s t_sword_stone
+scoreboard players operation @s t_tool_used > @s t_sword_iron
+scoreboard players operation @s t_tool_used > @s t_sword_gold
+scoreboard players operation @s t_tool_used > @s t_sword_diamond
+scoreboard players operation @s t_tool_used > @s t_bow
+scoreboard players operation @s t_tool_used > @s t_crossbow
+scoreboard players operation @s t_tool_used > @s t_shield
+scoreboard players operation @s t_tool_used > @s t_trident

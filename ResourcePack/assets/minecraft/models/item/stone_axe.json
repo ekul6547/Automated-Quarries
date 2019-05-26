@@ -1,0 +1,24 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/stone_axe"
+    },
+    "overrides": [
+		{ "predicate": { "custom_model_data": 1000 }, "model": "tinkery:item/axe/stone/_default"},
+		{ "predicate": { "custom_model_data": 1001 }, "model": "tinkery:item/axe/stone/d"},
+		{ "predicate": { "custom_model_data": 1002 }, "model": "tinkery:item/axe/stone/m"},
+		{ "predicate": { "custom_model_data": 1003 }, "model": "tinkery:item/axe/stone/dm"},
+		{ "predicate": { "custom_model_data": 1004 }, "model": "tinkery:item/axe/stone/s"},
+		{ "predicate": { "custom_model_data": 1005 }, "model": "tinkery:item/axe/stone/ds"},
+		{ "predicate": { "custom_model_data": 1006 }, "model": "tinkery:item/axe/stone/ms"},
+		{ "predicate": { "custom_model_data": 1007 }, "model": "tinkery:item/axe/stone/dms"},
+		{ "predicate": { "custom_model_data": 1008 }, "model": "tinkery:item/axe/stone/z"},
+		{ "predicate": { "custom_model_data": 1009 }, "model": "tinkery:item/axe/stone/dz"},
+		{ "predicate": { "custom_model_data": 1010 }, "model": "tinkery:item/axe/stone/mz"},
+		{ "predicate": { "custom_model_data": 1011 }, "model": "tinkery:item/axe/stone/dmz"},
+		{ "predicate": { "custom_model_data": 1012 }, "model": "tinkery:item/axe/stone/sz"},
+		{ "predicate": { "custom_model_data": 1013 }, "model": "tinkery:item/axe/stone/dsz"},
+		{ "predicate": { "custom_model_data": 1014 }, "model": "tinkery:item/axe/stone/msz"},
+		{ "predicate": { "custom_model_data": 1015 }, "model": "tinkery:item/axe/stone/dmsz"}
+    ]
+}

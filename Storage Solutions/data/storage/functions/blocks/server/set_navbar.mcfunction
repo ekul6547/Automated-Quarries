@@ -1,0 +1,3 @@
+execute as @s at @s if score @s s_lock matches 0 run data modify block ~ ~0.5 ~ Items append value {id:"minecraft:barrier",Slot:8b,Count:1b,tag:{display:{Name:"{\"text\":\"MENU BUTTON DO NOT REPLACE\"}"},MenuItem:1,CustomModelData:100}}
+execute as @s at @s if score @s s_lock matches 0 run data modify block ~ ~0.5 ~ Items append value {id:"minecraft:barrier",Slot:17b,Count:1b,tag:{display:{Name:"{\"text\":\"MENU BUTTON DO NOT REPLACE\"}"},MenuItem:2,CustomModelData:100}}
+execute as @s at @s if score @s s_lock matches 0 run data modify block ~ ~0.5 ~ Items append value {id:"minecraft:barrier",Slot:26b,Count:1b,tag:{display:{Name:"{\"text\":\"MENU BUTTON DO NOT REPLACE\"}"},MenuItem:3,CustomModelData:100}}

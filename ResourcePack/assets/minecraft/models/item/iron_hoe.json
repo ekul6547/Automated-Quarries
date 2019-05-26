@@ -1,0 +1,16 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/iron_hoe"
+    },
+    "overrides": [
+		{ "predicate": { "custom_model_data": 1000 }, "model": "tinkery:item/hoe/iron/_default"},
+		{ "predicate": { "custom_model_data": 1001 }, "model": "tinkery:item/hoe/iron/d"},
+		{ "predicate": { "custom_model_data": 1002 }, "model": "tinkery:item/hoe/iron/m"},
+		{ "predicate": { "custom_model_data": 1003 }, "model": "tinkery:item/hoe/iron/dm"},
+		{ "predicate": { "custom_model_data": 1004 }, "model": "tinkery:item/hoe/iron/s"},
+		{ "predicate": { "custom_model_data": 1005 }, "model": "tinkery:item/hoe/iron/ds"},
+		{ "predicate": { "custom_model_data": 1006 }, "model": "tinkery:item/hoe/iron/ms"},
+		{ "predicate": { "custom_model_data": 1007 }, "model": "tinkery:item/hoe/iron/dms"}
+    ]
+}

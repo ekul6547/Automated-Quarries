@@ -1,0 +1,11 @@
+execute as @s at @s unless data block ~ ~0.6 ~ Items[{Slot:10b}].tag.BluePrint.slots[{s:3b}] run data modify block ~ ~0.5 ~ Items append value {id:"minecraft:barrier",Slot:3b,Count:1b,tag:{display:{Name:"{\"text\":\"\"}"},MenuItem:1,CustomModelData:100}}
+execute as @s at @s unless data block ~ ~0.6 ~ Items[{Slot:10b}].tag.BluePrint.slots[{s:4b}] run data modify block ~ ~0.5 ~ Items append value {id:"minecraft:barrier",Slot:4b,Count:1b,tag:{display:{Name:"{\"text\":\"\"}"},MenuItem:1,CustomModelData:100}}
+execute as @s at @s unless data block ~ ~0.6 ~ Items[{Slot:10b}].tag.BluePrint.slots[{s:5b}] run data modify block ~ ~0.5 ~ Items append value {id:"minecraft:barrier",Slot:5b,Count:1b,tag:{display:{Name:"{\"text\":\"\"}"},MenuItem:1,CustomModelData:100}}
+
+execute as @s at @s unless data block ~ ~0.6 ~ Items[{Slot:10b}].tag.BluePrint.slots[{s:12b}] run data modify block ~ ~0.5 ~ Items append value {id:"minecraft:barrier",Slot:12b,Count:1b,tag:{display:{Name:"{\"text\":\"\"}"},MenuItem:1,CustomModelData:100}}
+execute as @s at @s unless data block ~ ~0.6 ~ Items[{Slot:10b}].tag.BluePrint.slots[{s:13b}] run data modify block ~ ~0.5 ~ Items append value {id:"minecraft:barrier",Slot:13b,Count:1b,tag:{display:{Name:"{\"text\":\"\"}"},MenuItem:1,CustomModelData:100}}
+execute as @s at @s unless data block ~ ~0.6 ~ Items[{Slot:10b}].tag.BluePrint.slots[{s:14b}] run data modify block ~ ~0.5 ~ Items append value {id:"minecraft:barrier",Slot:14b,Count:1b,tag:{display:{Name:"{\"text\":\"\"}"},MenuItem:1,CustomModelData:100}}
+
+execute as @s at @s unless data block ~ ~0.6 ~ Items[{Slot:10b}].tag.BluePrint.slots[{s:21b}] run data modify block ~ ~0.5 ~ Items append value {id:"minecraft:barrier",Slot:21b,Count:1b,tag:{display:{Name:"{\"text\":\"\"}"},MenuItem:1,CustomModelData:100}}
+execute as @s at @s unless data block ~ ~0.6 ~ Items[{Slot:10b}].tag.BluePrint.slots[{s:22b}] run data modify block ~ ~0.5 ~ Items append value {id:"minecraft:barrier",Slot:22b,Count:1b,tag:{display:{Name:"{\"text\":\"\"}"},MenuItem:1,CustomModelData:100}}
+execute as @s at @s unless data block ~ ~0.6 ~ Items[{Slot:10b}].tag.BluePrint.slots[{s:23b}] run data modify block ~ ~0.5 ~ Items append value {id:"minecraft:barrier",Slot:23b,Count:1b,tag:{display:{Name:"{\"text\":\"\"}"},MenuItem:1,CustomModelData:100}}

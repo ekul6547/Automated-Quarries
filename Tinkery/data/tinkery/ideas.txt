@@ -1,0 +1,129 @@
+id -> material -> effect
+
+silk -> slime-balls -> silk_touch
+fortune -> lapis -> fortune
+damage -> quartz -> attribute.attackDamage
+speed -> redstone -> efficiency, attribute.attackSpeed
+mending -> nether star -> (mending enchant or repair the tools directly)
+fire -> blaze powder -> fireaspect
+durability -> obisidian -> CustomMaxDurability
+looting -> lapis -> looting
+armor -> obsidian -> armor
+
+bow -> draw speed -> redstone
+bow -> damage -> quartz -> power
+bow -> fire -> blaze rod
+bow -> punch -> 
+bow -> looting -> lapis
+bow -> infinity -> nether star
+bow -> mending -> naut
+bow -> 
+
+available:[
+    pickaxe,
+    axe,
+    shovel,
+    sword,
+    bow,
+    crossbow,
+    armor
+]
+
+materials:[
+    wood:[
+        {wood,dur:64}
+    ],
+    stone:[
+        {stone,dur:256},{bone,dur:320}
+    ],
+    iron:[
+        {iron,dur:512}
+    ],
+    gold:[
+        {gold,dur:128}
+    ],
+    diamond:[
+        {diamond,dur:1920}
+    ]
+]
+
+Tinkery:{
+    Material:"this_mat",
+    CustomModifiers:[
+        {id:"",level:0,matbuild:0,next:0}
+    ],
+    Type:"tool"
+}
+
+AttributeModifiers:[
+    {AttributeName:"tinkery.durability",Name:"Durability",Slot:"mainhand",Amount:1000,Operation:0,UUIDMost:36630,UUIDLeast:156724}
+]
+
+Types:[
+    "tool",
+    "melee",
+    "bow",
+    "crossbow"
+]
+
+
+id - the id of the modifier
+level - the level of modifier
+matbuild - the amount of material added onto this tool for that modifier (e.g. how much redstone has been put on for speed) - resets when reaching next level
+type - the type of effect to apply, "tool", "melee", "armor"
+
+
+YOU CAN USE /execute store entity to store Damage
+
+DamageTaken -> armor
+DamageDealt -> weapons
+
+
+CustomModelData:[ (next mat is n*256 + 1000)
+    1000+ - wood
+
+    1000+ - stone
+
+    1000+ - iron
+    1256+ - bone
+
+    1000+ - gold
+    
+    1000+ - diamond
+
+    Tools (not armor, not swords): (add these to material id)
+
+    XX00 - default
+    XX01 - Durability (Obsidian)
+    XX02 - Mending
+    XX03 - Mending + Durability
+    XX04 - Silk_Touch
+    XX05 - Silk_Touch + Durability
+    XX06 - Silk_Touch + Mending
+    XX07 - Silk_Touch + Durability + Mending
+
+    Swords (not armor, tools):
+
+    XX00 - default
+    XX01 - Durability (Obsidian)
+    XX02 - Mending
+    XX03 - Mending + Durability
+    XX04 - Damage (quartz)
+    XX05 - Damage + Durability
+    XX06 - Damage + Mending
+    XX07 - Damage + Durability + Mending
+    XX08 - FireAspect
+    XX09 - FireAspect + Durability
+    XX10 - FireAspect + Mending
+    XX11 - FireAspect + Durability + Mending
+    XX12 - FireAspect + Damage
+    XX13 - FireAspect + Durability + Damage
+    XX14 - FireAspect + Mending + Damage
+    XX15 - FireAspect + Durability + Mending + Damage
+]
+
+#function group -> add modifiers pages to summoned book
+#function group -> add materials pages to summoned book
+
+Soulbound items
+Increase xp

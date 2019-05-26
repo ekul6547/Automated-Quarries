@@ -1,0 +1,16 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/golden_hoe"
+    },
+    "overrides": [
+		{ "predicate": { "custom_model_data": 1000 }, "model": "tinkery:item/hoe/gold/_default"},
+		{ "predicate": { "custom_model_data": 1001 }, "model": "tinkery:item/hoe/gold/d"},
+		{ "predicate": { "custom_model_data": 1002 }, "model": "tinkery:item/hoe/gold/m"},
+		{ "predicate": { "custom_model_data": 1003 }, "model": "tinkery:item/hoe/gold/dm"},
+		{ "predicate": { "custom_model_data": 1004 }, "model": "tinkery:item/hoe/gold/s"},
+		{ "predicate": { "custom_model_data": 1005 }, "model": "tinkery:item/hoe/gold/ds"},
+		{ "predicate": { "custom_model_data": 1006 }, "model": "tinkery:item/hoe/gold/ms"},
+		{ "predicate": { "custom_model_data": 1007 }, "model": "tinkery:item/hoe/gold/dms"}
+    ]
+}

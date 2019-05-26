@@ -1,0 +1,1 @@
+summon minecraft:item ~ ~1 ~ {Item:{id:"minecraft:carrot_on_a_stick",Count:1b,Unbreakable:1,tag:{display:{Name:"{\"text\":\"Wireless Terminal\"}",Lore:['{"text":"Sneak to find assigned system.","color":"gold"}']},CustomModelData:150,LapisReplace:1,Power:{current:0,max:1000}}},Tags:["s_New_Item"]}

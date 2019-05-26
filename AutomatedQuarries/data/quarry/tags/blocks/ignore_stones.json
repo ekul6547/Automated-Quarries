@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:stone",
+    "minecraft:sandstone",
+    "minecraft:andesite",
+    "minecraft:diorite",
+    "minecraft:dirt",
+    "minecraft:grass_block",
+    "minecraft:granite",
+    "minecraft:infested_stone",
+    "minecraft:infested_cobblestone",
+    "minecraft:infested_stone_bricks",
+    "minecraft:infested_mossy_stone_bricks",
+    "minecraft:infested_cracked_stone_bricks",
+    "minecraft:infested_chiseled_stone_bricks",
+    "minecraft:netherrack"
+  ]
+}

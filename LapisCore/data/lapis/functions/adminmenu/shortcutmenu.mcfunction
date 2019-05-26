@@ -1,0 +1,3 @@
+gamerule sendCommandFeedback false
+tellraw @s ["",{"text":"  ","color":"dark_green"},{"text":"\nShortcuts","color":"dark_green"}]
+tellraw @s ["",{"text":"[HEAL] ","color":"yellow","clickEvent":{"action":"run_command","value":"/effect give @s minecraft:instant_health 1 100 true"}},{"text":" [FEED]","color":"yellow","clickEvent":{"action":"run_command","value":"/effect give @s minecraft:saturation 1 100 true"}}]

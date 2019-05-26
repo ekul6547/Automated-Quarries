@@ -1,0 +1,4 @@
+execute at @s run summon minecraft:item ~ ~1 ~ {Item:{id:"minecraft:written_book",Count:1b,tag:{pages:["[\"\",{\"text\":\"Book of Templates\\n\",\"color\":\"green\",\"underlined\":true},{\"text\":\"By Re:Lapis\",\"color\":\"gray\",\"underlined\":false},{\"text\":\" \\nThis book lists all of the templates that can be used to craft tools.\",\"color\":\"none\"},{\"text\":\"\\n\\nUnless specified otherwise, they will use the same crafting recipe from the vanilla crafting table.\",\"color\":\"none\"}]"],title:"Tinkery Templates",author:"Re:Lapis"}},Tags:["t_new_temp_book"]}
+execute as @s at @s run function #tinkery_data:book_templates
+tag @e[tag=t_new_temp_book] remove t_new_temp_book
+scoreboard players set @s TinkeryBook 0

@@ -1,0 +1,1 @@
+tellraw @s ["",{"text":"\nPersonal id currently set to #"},{"score":{"name":"@s","objective":"s_id"}}]

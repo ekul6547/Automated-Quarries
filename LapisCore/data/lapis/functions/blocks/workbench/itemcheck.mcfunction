@@ -1,0 +1,1 @@
+execute as @s if entity @s[nbt=!{SelectedItem:{tag:{LapisReplace:1}}}] run function lapis:blocks/workbench/itemcount

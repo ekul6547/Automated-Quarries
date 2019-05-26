@@ -1,0 +1,15 @@
+execute as @s at @s if score @s t_output matches 0 if data block ~ ~0.6 ~ Items[{Slot:10b}].tag.BluePrint{id:"pickaxe"} run function #tinkery_data:construct/pickaxe
+execute as @s at @s if score @s t_output matches 0 if data block ~ ~0.6 ~ Items[{Slot:10b}].tag.BluePrint{id:"axe"} run function #tinkery_data:construct/axe
+execute as @s at @s if score @s t_output matches 0 if data block ~ ~0.6 ~ Items[{Slot:10b}].tag.BluePrint{id:"shovel"} run function #tinkery_data:construct/shovel
+execute as @s at @s if score @s t_output matches 0 if data block ~ ~0.6 ~ Items[{Slot:10b}].tag.BluePrint{id:"hoe"} run function #tinkery_data:construct/hoe
+execute as @s at @s if score @s t_output matches 0 if data block ~ ~0.6 ~ Items[{Slot:10b}].tag.BluePrint{id:"sword"} run function #tinkery_data:construct/sword
+execute as @s at @s if score @s t_output matches 0 if data block ~ ~0.6 ~ Items[{Slot:10b}].tag.BluePrint{id:"bow"} run function #tinkery_data:construct/bow
+execute as @s at @s if score @s t_output matches 0 if data block ~ ~0.6 ~ Items[{Slot:10b}].tag.BluePrint{id:"crossbow"} run function #tinkery_data:construct/crossbow
+execute as @s at @s if score @s t_output matches 0 if data block ~ ~0.6 ~ Items[{Slot:10b}].tag.BluePrint{id:"shield"} run function #tinkery_data:construct/shield
+execute as @s at @s if score @s t_output matches 0 if data block ~ ~0.6 ~ Items[{Slot:10b}].tag.BluePrint{id:"single"} run function #tinkery_data:construct/single
+execute as @s at @s if score @s t_output matches 0 if data block ~ ~0.6 ~ Items[{Slot:10b}].tag.BluePrint{id:"helmet"} run function #tinkery_data:construct/helmet
+execute as @s at @s if score @s t_output matches 0 if data block ~ ~0.6 ~ Items[{Slot:10b}].tag.BluePrint{id:"chestplate"} run function #tinkery_data:construct/chestplate
+execute as @s at @s if score @s t_output matches 0 if data block ~ ~0.6 ~ Items[{Slot:10b}].tag.BluePrint{id:"leggings"} run function #tinkery_data:construct/leggings
+execute as @s at @s if score @s t_output matches 0 if data block ~ ~0.6 ~ Items[{Slot:10b}].tag.BluePrint{id:"boots"} run function #tinkery_data:construct/boots
+execute as @s at @s if score @s t_output matches 0 if data block ~ ~0.6 ~ Items[{Slot:10b}].tag.BluePrint{id:"trident"} run function #tinkery_data:construct/trident
+execute as @s at @s if score @s t_output matches 0 if data block ~ ~0.6 ~ Items[{Slot:10b}].tag.BluePrint{id:"elytra"} run function #tinkery_data:construct/elytra

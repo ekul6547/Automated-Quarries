@@ -1,0 +1,25 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/diamond_sword"
+    },
+    "overrides": [
+        { "predicate": {"custom_model_data": 102}, "model": "quarry:item/katana"},
+		{ "predicate": { "custom_model_data": 1000 }, "model": "tinkery:item/sword/diamond/_default"},
+		{ "predicate": { "custom_model_data": 1001 }, "model": "tinkery:item/sword/diamond/d"},
+		{ "predicate": { "custom_model_data": 1002 }, "model": "tinkery:item/sword/diamond/m"},
+		{ "predicate": { "custom_model_data": 1003 }, "model": "tinkery:item/sword/diamond/dm"},
+		{ "predicate": { "custom_model_data": 1004 }, "model": "tinkery:item/sword/diamond/s"},
+		{ "predicate": { "custom_model_data": 1005 }, "model": "tinkery:item/sword/diamond/ds"},
+		{ "predicate": { "custom_model_data": 1006 }, "model": "tinkery:item/sword/diamond/ms"},
+		{ "predicate": { "custom_model_data": 1007 }, "model": "tinkery:item/sword/diamond/dms"},
+		{ "predicate": { "custom_model_data": 1008 }, "model": "tinkery:item/sword/diamond/z"},
+		{ "predicate": { "custom_model_data": 1009 }, "model": "tinkery:item/sword/diamond/dz"},
+		{ "predicate": { "custom_model_data": 1010 }, "model": "tinkery:item/sword/diamond/mz"},
+		{ "predicate": { "custom_model_data": 1011 }, "model": "tinkery:item/sword/diamond/dmz"},
+		{ "predicate": { "custom_model_data": 1012 }, "model": "tinkery:item/sword/diamond/sz"},
+		{ "predicate": { "custom_model_data": 1013 }, "model": "tinkery:item/sword/diamond/dsz"},
+		{ "predicate": { "custom_model_data": 1014 }, "model": "tinkery:item/sword/diamond/msz"},
+		{ "predicate": { "custom_model_data": 1015 }, "model": "tinkery:item/sword/diamond/dmsz"}
+    ]
+}

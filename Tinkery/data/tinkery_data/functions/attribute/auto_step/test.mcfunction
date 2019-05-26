@@ -1,0 +1,1 @@
+execute at @s if data block ~ ~0.6 ~ Items[{Slot:15b,id:"minecraft:end_stone_brick_stairs"}] unless data block ~ ~0.6 ~ Items[{Slot:11b}].tag.Tinkery.Addons[{id:"auto_step"}] run function tinkery_data:attribute/auto_step/init

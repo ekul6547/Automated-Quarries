@@ -1,0 +1,9 @@
+{
+  "language.name": "English",
+  "language.region": "United States",
+  "language.code": "en_us",
+  "item.minecraft.squid_spawn_egg": "Lapis Workbench",
+  "attribute.name.tinkery.durability": "§fDurability",
+  "attribute.name.tinkery.maxDurability": "§fMax Durability"
+  
+}

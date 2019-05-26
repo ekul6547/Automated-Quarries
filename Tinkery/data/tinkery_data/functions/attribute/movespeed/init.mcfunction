@@ -1,0 +1,3 @@
+execute at @s run data modify block ~ ~0.6 ~ Items[{Slot:11b}].tag.Tinkery.Addons append value {id:"movespeed",level:0,matBuild:0,next:64}
+execute at @s run data modify block ~ ~0.6 ~ Items[{Slot:11b}].tag.display.Lore append value '{"text":"Speedster","color":"dark_red"}'
+execute at @s if data block ~ ~0.6 ~ Items[{Slot:11b}] run data modify block ~ ~0.6 ~ Items[{Slot:11b}].tag.AttributeModifiers append value {AttributeName:"generic.movementSpeed",Name:"generic.movementSpeed",Amount:0,Operation:0,UUIDMost:19780,UUIDLeast:439345,Slot:"legs"}

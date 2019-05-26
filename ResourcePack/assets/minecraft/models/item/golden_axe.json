@@ -1,0 +1,24 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/golden_axe"
+    },
+    "overrides": [
+		{ "predicate": { "custom_model_data": 1000 }, "model": "tinkery:item/axe/gold/_default"},
+		{ "predicate": { "custom_model_data": 1001 }, "model": "tinkery:item/axe/gold/d"},
+		{ "predicate": { "custom_model_data": 1002 }, "model": "tinkery:item/axe/gold/m"},
+		{ "predicate": { "custom_model_data": 1003 }, "model": "tinkery:item/axe/gold/dm"},
+		{ "predicate": { "custom_model_data": 1004 }, "model": "tinkery:item/axe/gold/s"},
+		{ "predicate": { "custom_model_data": 1005 }, "model": "tinkery:item/axe/gold/ds"},
+		{ "predicate": { "custom_model_data": 1006 }, "model": "tinkery:item/axe/gold/ms"},
+		{ "predicate": { "custom_model_data": 1007 }, "model": "tinkery:item/axe/gold/dms"},
+		{ "predicate": { "custom_model_data": 1008 }, "model": "tinkery:item/axe/gold/z"},
+		{ "predicate": { "custom_model_data": 1009 }, "model": "tinkery:item/axe/gold/dz"},
+		{ "predicate": { "custom_model_data": 1010 }, "model": "tinkery:item/axe/gold/mz"},
+		{ "predicate": { "custom_model_data": 1011 }, "model": "tinkery:item/axe/gold/dmz"},
+		{ "predicate": { "custom_model_data": 1012 }, "model": "tinkery:item/axe/gold/sz"},
+		{ "predicate": { "custom_model_data": 1013 }, "model": "tinkery:item/axe/gold/dsz"},
+		{ "predicate": { "custom_model_data": 1014 }, "model": "tinkery:item/axe/gold/msz"},
+		{ "predicate": { "custom_model_data": 1015 }, "model": "tinkery:item/axe/gold/dmsz"}
+    ]
+}

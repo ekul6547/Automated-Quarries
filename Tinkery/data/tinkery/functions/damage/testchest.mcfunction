@@ -1,0 +1,2 @@
+execute as @s if entity @s[gamemode=!creative] if score @s t_damagetaken matches 1.. run function tinkery:damage/damagechest
+execute as @s if entity @s[gamemode=!creative] if score @s t_elytra matches 2560.. run function tinkery:damage/damagechest

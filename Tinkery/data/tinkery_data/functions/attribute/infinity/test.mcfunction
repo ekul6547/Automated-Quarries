@@ -1,0 +1,1 @@
+execute at @s if data block ~ ~0.6 ~ Items[{Slot:15b,id:"minecraft:ender_eye"}] unless data block ~ ~0.6 ~ Items[{Slot:11b}].tag.Tinkery.Addons[{id:"infinity"}] run function tinkery_data:attribute/infinity/init
