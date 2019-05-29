@@ -4,7 +4,7 @@ https://minecraft.curseforge.com/projects/lapiscore
 https://minecraft.curseforge.com/projects/automated-quarries
 # Tinkery
 https://minecraft.curseforge.com/projects/tinkery-datapack
-#Tinkery Hammers
+# Tinkery Hammers
 https://minecraft.curseforge.com/projects/hammers-tinkery-datapack-addon
 # Storage Solutions
 https://minecraft.curseforge.com/projects/storage-solutions-datapack
