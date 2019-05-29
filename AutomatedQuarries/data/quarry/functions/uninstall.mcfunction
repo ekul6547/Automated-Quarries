@@ -67,4 +67,4 @@ scoreboard objectives remove RequestTrigger
 
 scoreboard players set #quarry pack_loaded -1
 
-tellraw @a ["",{"text":"Uninstalled [Automated Quarries] v0.7","color":"white"},{"text":" by Re:Lapis","color":"gray"}]
+tellraw @a ["",{"text":"Uninstalled [Automated Quarries] v0.8","color":"white"},{"text":" by Re:Lapis","color":"gray"}]

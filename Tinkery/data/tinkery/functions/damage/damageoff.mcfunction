@@ -44,6 +44,10 @@ execute if data entity @s Inventory[{Slot:-106b,id:"minecraft:trident"}] run sco
 execute if data entity @s Inventory[{Slot:-106b,id:"minecraft:shield"}] run scoreboard players operation #tinkery t_dum5 += @s t_shield
 scoreboard players set #tinkery t_dum6 10
 execute if data entity @s Inventory[{Slot:-106b,id:"minecraft:shield"}] run scoreboard players operation #tinkery t_dum5 /= #tinkery t_dum6
+execute if data entity @s Inventory[{Slot:-106b,id:"minecraft:shears"}] run scoreboard players operation #tinkery t_dum5 += @s t_shears
+execute if data entity @s Inventory[{Slot:-106b,id:"minecraft:flint_and_steel"}] run scoreboard players operation #tinkery t_dum5 += @s t_flint_steel
+execute if data entity @s Inventory[{Slot:-106b,id:"minecraft:fishing_rod"}] run scoreboard players operation #tinkery t_dum5 += @s t_fishing_rod
+execute if data entity @s Inventory[{Slot:-106b,id:"minecraft:carrot_on_a_stick"}] run scoreboard players operation #tinkery t_dum5 += @s t_carrot_stick
 
 scoreboard players operation #tinkery t_dum0 -= #tinkery t_dum5
 

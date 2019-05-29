@@ -12,3 +12,7 @@ execute as @s at @s if score @s t_output matches 0 if data block ~ ~0.6 ~ Items[
 execute as @s at @s if score @s t_output matches 0 if data block ~ ~0.6 ~ Items[{Slot:11b}].tag.Tinkery{Type:"boots"} run function #tinkery_data:attribute/boots
 execute as @s at @s if score @s t_output matches 0 if data block ~ ~0.6 ~ Items[{Slot:11b}].tag.Tinkery{Type:"trident"} run function #tinkery_data:attribute/trident
 execute as @s at @s if score @s t_output matches 0 if data block ~ ~0.6 ~ Items[{Slot:11b}].tag.Tinkery{Type:"elytra"} run function #tinkery_data:attribute/elytra
+execute as @s at @s if score @s t_output matches 0 if data block ~ ~0.6 ~ Items[{Slot:11b}].tag.Tinkery{Type:"flint_and_steel"} run function #tinkery_data:attribute/flint_and_steel
+execute as @s at @s if score @s t_output matches 0 if data block ~ ~0.6 ~ Items[{Slot:11b}].tag.Tinkery{Type:"carrot_on_a_stick"} run function #tinkery_data:attribute/carrot_on_a_stick
+execute as @s at @s if score @s t_output matches 0 if data block ~ ~0.6 ~ Items[{Slot:11b}].tag.Tinkery{Type:"shears"} run function #tinkery_data:attribute/shears
+execute as @s at @s if score @s t_output matches 0 if data block ~ ~0.6 ~ Items[{Slot:11b}].tag.Tinkery{Type:"fishing_rod"} run function #tinkery_data:attribute/fishing_rod

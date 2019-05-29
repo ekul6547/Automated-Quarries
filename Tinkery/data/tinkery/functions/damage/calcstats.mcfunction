@@ -23,3 +23,7 @@ scoreboard players operation @s t_tool_used > @s t_bow
 scoreboard players operation @s t_tool_used > @s t_crossbow
 scoreboard players operation @s t_tool_used > @s t_shield
 scoreboard players operation @s t_tool_used > @s t_trident
+scoreboard players operation @s t_tool_used > @s t_shears
+scoreboard players operation @s t_tool_used > @s t_flint_steel
+scoreboard players operation @s t_tool_used > @s t_fishing_rod
+scoreboard players operation @s t_tool_used > @s t_carrot_stick

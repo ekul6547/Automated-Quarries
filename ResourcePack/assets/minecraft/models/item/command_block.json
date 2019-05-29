@@ -20,6 +20,7 @@
 		{ "predicate": {"custom_model_data": 150}, "model": "storage:block/controller_inverse"},
 		{ "predicate": {"custom_model_data": 151}, "model": "storage:block/terminal_inverse"},
 		{ "predicate": {"custom_model_data": 152}, "model": "storage:block/server_inverse"},
+        { "predicate": {"custom_model_data": 999}, "model": "lapis:block/invisible"},
         { "predicate": {"custom_model_data": 1000}, "model": "tinkery:block/modifier_inverse"},
         { "predicate": {"custom_model_data": 1001}, "model": "tinkery:block/constructor_inverse"},
         { "predicate": {"custom_model_data": 1002}, "model": "tinkery:block/blueprinter_inverse"}

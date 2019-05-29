@@ -1,0 +1,3 @@
+
+execute at @s run data modify block ~ ~0.6 ~ Items[{Slot:16b}].tag.AttributeModifiers append value {AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Slot:"mainhand",Amount:0,Operation:0,UUIDMost:10370,UUIDLeast:142026}
+execute at @s run data modify block ~ ~0.6 ~ Items[{Slot:16b}].tag.AttributeModifiers append value {AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Slot:"mainhand",Amount:0,Operation:0,UUIDMost:89806,UUIDLeast:116685}

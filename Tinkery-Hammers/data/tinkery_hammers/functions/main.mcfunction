@@ -1,0 +1,1 @@
+execute as @e[tag=HAMMERSTAND] run function tinkery_hammers:killstands

@@ -25,3 +25,7 @@ scoreboard players set @s t_bow 0
 scoreboard players set @s t_crossbow 0
 scoreboard players set @s t_shield 0
 execute if data entity @s {OnGround:1b} run scoreboard players set @s t_elytra 0
+scoreboard players set @s t_shears 0
+scoreboard players set @s t_flint_steel 0
+scoreboard players set @s t_fishing_rod 0
+scoreboard players set @s t_carrot_stick 0

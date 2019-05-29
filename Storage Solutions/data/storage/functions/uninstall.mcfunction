@@ -36,4 +36,4 @@ scoreboard objectives remove s_w_inst
 
 
 scoreboard players set #storage pack_loaded -1
-tellraw @a ["",{"text":"Uninstalled "},{"text":"[Storage Solutions] v0.3","color":"gold"},{"text":" By RE:Lapis","color":"gray"}]
+tellraw @a ["",{"text":"Uninstalled "},{"text":"[Storage Solutions] v0.4","color":"gold"},{"text":" By RE:Lapis","color":"gray"}]

@@ -11,6 +11,14 @@
         { "predicate": {"custom_model_data": 1004}, "model": "tinkery:item/pickaxe/gold/s"},
         { "predicate": {"custom_model_data": 1005}, "model": "tinkery:item/pickaxe/gold/ds"},
         { "predicate": {"custom_model_data": 1006}, "model": "tinkery:item/pickaxe/gold/ms"},
-        { "predicate": {"custom_model_data": 1007}, "model": "tinkery:item/pickaxe/gold/dms"}
+        { "predicate": {"custom_model_data": 1007}, "model": "tinkery:item/pickaxe/gold/dms"},
+		{ "predicate": { "custom_model_data": 1128 }, "model": "tinkery:item/hammer/gold/_default"},
+		{ "predicate": { "custom_model_data": 1129 }, "model": "tinkery:item/hammer/gold/d"},
+		{ "predicate": { "custom_model_data": 1130 }, "model": "tinkery:item/hammer/gold/m"},
+		{ "predicate": { "custom_model_data": 1131 }, "model": "tinkery:item/hammer/gold/dm"},
+		{ "predicate": { "custom_model_data": 1132 }, "model": "tinkery:item/hammer/gold/s"},
+		{ "predicate": { "custom_model_data": 1133 }, "model": "tinkery:item/hammer/gold/ds"},
+		{ "predicate": { "custom_model_data": 1134 }, "model": "tinkery:item/hammer/gold/ms"},
+		{ "predicate": { "custom_model_data": 1135 }, "model": "tinkery:item/hammer/gold/dms"}
     ]
 }

@@ -56,4 +56,4 @@ scoreboard objectives remove t_output_pre
 
 scoreboard players set #tinker pack_loaded -1
 
-tellraw @a ["",{"text":"Uninstalled "},{"text":"[Tinkery] v0.1","color":"green"},{"text":" By RE:Lapis","color":"gray"}]
+tellraw @a ["",{"text":"Uninstalled "},{"text":"[Tinkery] v0.2","color":"green"},{"text":" By RE:Lapis","color":"gray"}]

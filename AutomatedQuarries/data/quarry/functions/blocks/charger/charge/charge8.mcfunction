@@ -1,16 +1,12 @@
 execute at @s store success score #itemdamage QuarryIgnore run data get block ~ ~0.5 ~ Items[{Slot:8b}].tag.Power.damage
 
-#Drill
-execute as @s at @s if data block ~ ~0.5 ~ Items[{Slot:8b,id:"minecraft:spider_eye",tag:{CustomModelData:101}}] run data modify block ~ ~0.5 ~ Items[{Slot:8b}] merge value {Slot:8b,id:"minecraft:diamond_pickaxe",Count:1b,tag:{display:{Name:"{\"text\":\"Drill\"}",Lore:["{\"text\":\"Bar Indicates charge\",\"color\":\"gold\"}","{\"text\":\"Needs Charging\",\"color\":\"dark_red\"}"]},CustomModelData:101,LapisReplace:1,Power:{current:1,max:1561,damage:1561},Damage:1560}}
-
-#Katana
-execute as @s at @s if data block ~ ~0.5 ~ Items[{Slot:8b,id:"minecraft:spider_eye",tag:{CustomModelData:102}}] run data modify block ~ ~0.5 ~ Items[{Slot:8b}] merge value {Slot:8b,id:"minecraft:diamond_sword",Count:1b,tag:{display:{Name:"{\"text\":\"Neo-Katana\"}",Lore:["{\"text\":\"Bar Indicates charge\",\"color\":\"gold\"}","{\"text\":\"Charging\",\"color\":\"dark_red\"}"]},CustomModelData:102,LapisReplace:1,Power:{current:1,max:1561,damage:1561},AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Slot:"mainhand",Amount:10,Operation:0,UUIDMost:36630,UUIDLeast:156724},{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Slot:"offhand",Amount:10,Operation:0,UUIDMost:36113,UUIDLeast:115363},{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Slot:"mainhand",Amount:1024,Operation:0,UUIDMost:55690,UUIDLeast:147290},{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Slot:"offhand",Amount:1024,Operation:0,UUIDMost:34547,UUIDLeast:174196}]}}
-
 execute as @s at @s store result score @s qmin_x run data get block ~ ~0.5 ~ Items[{Slot:8b}].tag.Power.current
 execute as @s at @s store result score @s qmax_x run data get block ~ ~0.5 ~ Items[{Slot:8b}].tag.Power.max
 execute as @s at @s if score @s qmin_x < @s qmax_x run scoreboard players operation @s qmin_x += @s qmin_z
 execute as @s at @s store result block ~ ~0.5 ~ Items[{Slot:8b}].tag.Power.current int 1 run scoreboard players get @s qmin_x
 
+execute as @s at @s if score @s qmin_x matches 5.. run data modify block ~ ~0.5 ~ Items[{Slot:8b}].tag.CustomModelData set value 101
+execute as @s at @s if score @s qmin_x matches 1000.. run data modify block ~ ~0.5 ~ Items[{Slot:8b,id:"minecraft:spider_eye"}].tag.CustomModelData set value 102
 execute as @s at @s if score @s qmin_x < @s qmax_x run data modify block ~ ~0.5 ~ Items[{Slot:8b}].tag.display.Lore[1] set value "{\"text\":\"Charging\",\"color\":\"dark_red\"}"
 execute as @s at @s if score @s qmin_x >= @s qmax_x run data modify block ~ ~0.5 ~ Items[{Slot:8b}].tag.display.Lore[1] set value "{\"text\":\"Charge complete\",\"color\":\"dark_green\"}"
 

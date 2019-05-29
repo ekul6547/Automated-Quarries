@@ -50,4 +50,4 @@ scoreboard players set * LapisAdmin 0
 scoreboard players set * LapisAdmin2 0
 
 
-tellraw @a ["",{"text":"Loaded "},{"text":"[LapisCore] v0.3","color":"dark_blue","clickEvent":{"action":"run_command","value":"/trigger LapisBook"},"hoverEvent":{"action":"show_text","value":"Click here to get the tutorial book"}},{"text":" By RE:Lapis","color":"gray"}]
+tellraw @a ["",{"text":"Loaded "},{"text":"[LapisCore] v0.4","color":"dark_blue","clickEvent":{"action":"run_command","value":"/trigger LapisBook"},"hoverEvent":{"action":"show_text","value":"Click here to get the tutorial book"}},{"text":" By RE:Lapis","color":"gray"}]

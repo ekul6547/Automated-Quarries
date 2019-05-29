@@ -1,0 +1,2 @@
+execute as @s at @s if score @s t_output matches 0 if data block ~ ~0.6 ~ Items[{Slot:13b}].tag.Damage unless data block ~ ~0.6 ~ Items[{Slot:13b}].tag.Tinkery run data modify block ~ ~0.6 ~ Items[{Slot:13b}].Slot set value 16b
+execute as @s at @s if score @s t_output matches 0 if data block ~ ~0.6 ~ Items[{Slot:16b}].tag.Damage unless data block ~ ~0.6 ~ Items[{Slot:16b}].tag.Tinkery run function tinkery_data:construct/conversion/convert

@@ -7,5 +7,5 @@ datapack disable "file/LapisCore.zip"
 datapack enable "file/LapisCore" first
 datapack enable "file/LapisCore.zip" first
 
-tellraw @a ["",{"text":"\nInitial Load for ","color":"blue"},{"text":"[LapisCore] v0.3","color":"dark_blue"},{"text":" By RE:Lapis","color":"gray"}]
+tellraw @a ["",{"text":"\nInitial Load for ","color":"blue"},{"text":"[LapisCore] v0.4","color":"dark_blue"},{"text":" By RE:Lapis","color":"gray"}]
 tellraw @a ["",{"text":"Datapacks may (re)load twice after this. This is normal.","color":"blue"}]

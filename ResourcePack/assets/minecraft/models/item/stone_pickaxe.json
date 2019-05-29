@@ -11,6 +11,14 @@
         { "predicate": {"custom_model_data": 1004}, "model": "tinkery:item/pickaxe/stone/s"},
         { "predicate": {"custom_model_data": 1005}, "model": "tinkery:item/pickaxe/stone/ds"},
         { "predicate": {"custom_model_data": 1006}, "model": "tinkery:item/pickaxe/stone/ms"},
-        { "predicate": {"custom_model_data": 1007}, "model": "tinkery:item/pickaxe/stone/dms"}
+        { "predicate": {"custom_model_data": 1007}, "model": "tinkery:item/pickaxe/stone/dms"},
+		{ "predicate": { "custom_model_data": 1128 }, "model": "tinkery:item/hammer/stone/_default"},
+		{ "predicate": { "custom_model_data": 1129 }, "model": "tinkery:item/hammer/stone/d"},
+		{ "predicate": { "custom_model_data": 1130 }, "model": "tinkery:item/hammer/stone/m"},
+		{ "predicate": { "custom_model_data": 1131 }, "model": "tinkery:item/hammer/stone/dm"},
+		{ "predicate": { "custom_model_data": 1132 }, "model": "tinkery:item/hammer/stone/s"},
+		{ "predicate": { "custom_model_data": 1133 }, "model": "tinkery:item/hammer/stone/ds"},
+		{ "predicate": { "custom_model_data": 1134 }, "model": "tinkery:item/hammer/stone/ms"},
+		{ "predicate": { "custom_model_data": 1135 }, "model": "tinkery:item/hammer/stone/dms"}
     ]
 }

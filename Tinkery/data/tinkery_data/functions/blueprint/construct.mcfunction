@@ -1,3 +1,4 @@
+execute as @s at @s if score @s t_output matches 0 if data block ~ ~0.6 ~ Items[{Slot:10b}].tag.BluePrint{id:"conversion"} run function #tinkery_data:construct/conversion
 execute as @s at @s if score @s t_output matches 0 if data block ~ ~0.6 ~ Items[{Slot:10b}].tag.BluePrint{id:"pickaxe"} run function #tinkery_data:construct/pickaxe
 execute as @s at @s if score @s t_output matches 0 if data block ~ ~0.6 ~ Items[{Slot:10b}].tag.BluePrint{id:"axe"} run function #tinkery_data:construct/axe
 execute as @s at @s if score @s t_output matches 0 if data block ~ ~0.6 ~ Items[{Slot:10b}].tag.BluePrint{id:"shovel"} run function #tinkery_data:construct/shovel
@@ -13,3 +14,7 @@ execute as @s at @s if score @s t_output matches 0 if data block ~ ~0.6 ~ Items[
 execute as @s at @s if score @s t_output matches 0 if data block ~ ~0.6 ~ Items[{Slot:10b}].tag.BluePrint{id:"boots"} run function #tinkery_data:construct/boots
 execute as @s at @s if score @s t_output matches 0 if data block ~ ~0.6 ~ Items[{Slot:10b}].tag.BluePrint{id:"trident"} run function #tinkery_data:construct/trident
 execute as @s at @s if score @s t_output matches 0 if data block ~ ~0.6 ~ Items[{Slot:10b}].tag.BluePrint{id:"elytra"} run function #tinkery_data:construct/elytra
+execute as @s at @s if score @s t_output matches 0 if data block ~ ~0.6 ~ Items[{Slot:10b}].tag.BluePrint{id:"shears"} run function #tinkery_data:construct/shears
+execute as @s at @s if score @s t_output matches 0 if data block ~ ~0.6 ~ Items[{Slot:10b}].tag.BluePrint{id:"flint_and_steel"} run function #tinkery_data:construct/flint_and_steel
+execute as @s at @s if score @s t_output matches 0 if data block ~ ~0.6 ~ Items[{Slot:10b}].tag.BluePrint{id:"carrot_on_a_stick"} run function #tinkery_data:construct/carrot_on_a_stick
+execute as @s at @s if score @s t_output matches 0 if data block ~ ~0.6 ~ Items[{Slot:10b}].tag.BluePrint{id:"fishing_rod"} run function #tinkery_data:construct/fishing_rod

@@ -11,5 +11,4 @@
 #-1 - Uninstall Confirm
 
 execute as @a if score @s LapisAdmin matches 1.. run function lockbox:adminmenu/menu
-execute as @e[tag=Workbench] if score @s WorkbenchItems matches 0 run function lockbox:wbrecipes/_checkrecipes
 function lockbox:blocks/blockmain

@@ -74,4 +74,4 @@ scoreboard players set #drill qmax_x 1561
 scoreboard players set @a q_d_current 0
 
 
-tellraw @a ["",{"text":"Loaded "},{"text":"[Automated Quarries] v0.7","clickEvent":{"action":"run_command","value":"/trigger QuarryBook"},"hoverEvent":{"action":"show_text","value":"Click here to get the tutorial book"}},{"text":" By RE:Lapis","color":"gray"}]
+tellraw @a ["",{"text":"Loaded "},{"text":"[Automated Quarries] v0.8","clickEvent":{"action":"run_command","value":"/trigger QuarryBook"},"hoverEvent":{"action":"show_text","value":"Click here to get the tutorial book"}},{"text":" By RE:Lapis","color":"gray"}]

@@ -1,0 +1,157 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "lapis:font/lapis_workbench.png",
+            "ascent": 24,
+            "height": 139,
+            "chars": [
+                "\uEda1"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/lockbox.png",
+            "ascent": 24,
+            "height": 139,
+            "chars": [
+                "\uEda2"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "quarry:font/battery.png",
+            "ascent": 24,
+            "height": 139,
+            "chars": [
+                "\uEda3"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "quarry:font/charger.png",
+            "ascent": 24,
+            "height": 139,
+            "chars": [
+                "\uEda4"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "quarry:font/quarry.png",
+            "ascent": 24,
+            "height": 139,
+            "chars": [
+                "\uEda5"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "quarry:font/drill.png",
+            "ascent": 24,
+            "height": 139,
+            "chars": [
+                "\uEda6"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "quarry:font/katana.png",
+            "ascent": 24,
+            "height": 139,
+            "chars": [
+                "\uEda7"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "quarry:font/techno.png",
+            "ascent": 24,
+            "height": 139,
+            "chars": [
+                "\uEda8"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "quarry:font/dampener.png",
+            "ascent": 24,
+            "height": 139,
+            "chars": [
+                "\uEda9"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "storage:font/controller.png",
+            "ascent": 24,
+            "height": 139,
+            "chars": [
+                "\uEdb1"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "storage:font/server.png",
+            "ascent": 24,
+            "height": 139,
+            "chars": [
+                "\uEdb2"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "storage:font/terminal.png",
+            "ascent": 24,
+            "height": 139,
+            "chars": [
+                "\uEdb3"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "storage:font/wireless_terminal.png",
+            "ascent": 24,
+            "height": 139,
+            "chars": [
+                "\uEdb4"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "tinkery:font/blueprint.png",
+            "ascent": 24,
+            "height": 139,
+            "chars": [
+                "\uEdd1"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "tinkery:font/blueprinter.png",
+            "ascent": 24,
+            "height": 139,
+            "chars": [
+                "\uEdd2"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "tinkery:font/constructor.png",
+            "ascent": 24,
+            "height": 139,
+            "chars": [
+                "\uEdd3"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "tinkery:font/modifier.png",
+            "ascent": 24,
+            "height": 139,
+            "chars": [
+                "\uEdd4"
+            ]
+        }
+    ]
+}

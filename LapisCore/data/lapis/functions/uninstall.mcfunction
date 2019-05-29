@@ -46,4 +46,4 @@ scoreboard objectives remove WorkbenchItems
 scoreboard objectives remove WorkbenchCount
 
 
-tellraw @a ["",{"text":"Uninstalled "},{"text":"[LapisCore] v0.3","color":"dark_blue"},{"text":" By RE:Lapis","color":"gray"}]
+tellraw @a ["",{"text":"Uninstalled "},{"text":"[LapisCore] v0.4","color":"dark_blue"},{"text":" By RE:Lapis","color":"gray"}]

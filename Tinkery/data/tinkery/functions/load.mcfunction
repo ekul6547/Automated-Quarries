@@ -47,6 +47,10 @@ scoreboard objectives add t_crossbow minecraft.used:minecraft.crossbow
 scoreboard objectives add t_shield minecraft.custom:minecraft.damage_blocked_by_shield
 scoreboard objectives add t_trident minecraft.used:minecraft.trident
 scoreboard objectives add t_elytra minecraft.custom:minecraft.aviate_one_cm
+scoreboard objectives add t_shears minecraft.used:minecraft.shears
+scoreboard objectives add t_flint_steel minecraft.used:minecraft.flint_and_steel
+scoreboard objectives add t_fishing_rod minecraft.used:minecraft.fishing_rod
+scoreboard objectives add t_carrot_stick minecraft.used:minecraft.carrot_on_a_stick
 
 scoreboard objectives add t_menu dummy
 scoreboard objectives add t_pre dummy
@@ -57,4 +61,4 @@ scoreboard objectives add t_output_pre dummy
 scoreboard players set #tinker pack_loaded 1
 function tinkery:setmats
 
-tellraw @a ["",{"text":"Loaded "},{"text":"[Tinkery] v0.1","color":"green","clickEvent":{"action":"run_command","value":"/trigger TinkeryBook"},"hoverEvent":{"action":"show_text","value":"Click here to get the tutorial book"}},{"text":" By RE:Lapis","color":"gray"}]
+tellraw @a ["",{"text":"Loaded "},{"text":"[Tinkery] v0.2","color":"green","clickEvent":{"action":"run_command","value":"/trigger TinkeryBook"},"hoverEvent":{"action":"show_text","value":"Click here to get the tutorial book"}},{"text":" By RE:Lapis","color":"gray"}]
