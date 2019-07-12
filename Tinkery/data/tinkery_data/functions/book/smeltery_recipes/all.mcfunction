@@ -1,0 +1,5 @@
+function tinkery_data:book/smeltery_recipes/blocks
+function tinkery_data:book/smeltery_recipes/basic_items
+function tinkery_data:book/smeltery_recipes/special_recipes
+function tinkery_data:book/smeltery_recipes/alloysandmixes
+function tinkery_data:book/smeltery_recipes/fuels

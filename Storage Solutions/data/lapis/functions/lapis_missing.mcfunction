@@ -1,0 +1,1 @@
+tellraw @a ["",{"text":"LapisCore not detected. Click [HERE] to download","color":"blue","clickEvent":{"action":"open_url","value":"https://www.curseforge.com/minecraft/customization/lapiscore"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"Link to Curseforge page"},{"text":"\nDon't forget the resourcepack as well!"}]}}}]

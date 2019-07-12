@@ -1,0 +1,1 @@
+data modify entity @s ArmorItems[0].tag.Smeltery.Items append value {TinkeryMat:{id:"lapis",color:3432131,ToolDur:384,ArmorDur:[212,256,284,204],Addons:[]},BaseItem:{id:"minecraft:lapis_lazuli",Count:1b},Amount:0}

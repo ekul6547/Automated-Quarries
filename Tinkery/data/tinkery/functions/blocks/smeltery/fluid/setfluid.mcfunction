@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:armor_stand,distance=..3,tag=t_smelt_fluid] if data entity @s ArmorItems[3].tag{CustomModelData:1002} run data modify entity @s ArmorItems[3].tag.display.color set from entity @e[tag=t_Smeltery,limit=1,sort=nearest] ArmorItems[0].tag.Smeltery.TempItem.tag.TinkeryMat.color

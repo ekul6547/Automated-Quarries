@@ -47,6 +47,14 @@ scoreboard objectives remove t_crossbow
 scoreboard objectives remove t_shield
 scoreboard objectives remove t_trident
 scoreboard objectives remove t_elytra
+scoreboard objectives remove t_shears
+scoreboard objectives remove t_flint_steel
+scoreboard objectives remove t_fishing_rod
+scoreboard objectives remove t_carrot_stick
+
+scoreboard objectives remove t_horse_drop
+
+scoreboard objectives remove t_sneaking
 
 scoreboard objectives remove t_menu
 scoreboard objectives remove t_pre
@@ -54,6 +62,15 @@ scoreboard objectives remove t_pre
 scoreboard objectives remove t_output
 scoreboard objectives remove t_output_pre
 
+scoreboard objectives remove t_smeltery_on
+scoreboard objectives remove t_s_level
+scoreboard objectives remove t_s_fuel
+scoreboard objectives remove t_s_fuel_count
+scoreboard objectives remove t_s_heat
+scoreboard objectives remove t_s_current
+scoreboard objectives remove t_s_capacity
+scoreboard objectives remove t_s_debug
+
 scoreboard players set #tinker pack_loaded -1
 
-tellraw @a ["",{"text":"Uninstalled "},{"text":"[Tinkery] v0.2","color":"green"},{"text":" By RE:Lapis","color":"gray"}]
+tellraw @a ["",{"text":"Uninstalled "},{"text":"[Tinkery] v0.3","color":"green"},{"text":" By RE:Lapis","color":"gray"}]

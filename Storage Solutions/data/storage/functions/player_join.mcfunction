@@ -1,0 +1,1 @@
+tellraw @s ["",{"text":"Click [HERE] to get the Storage Solutions book","color":"gold","clickEvent":{"action":"run_command","value":"/trigger StorageBook"}}]

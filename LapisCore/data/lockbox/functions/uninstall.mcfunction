@@ -1,4 +1,4 @@
-scoreboard objectives add q_UUIDMost dummy
-scoreboard objectives add q_UUIDLeast dummy
+scoreboard objectives remove q_UUIDMost
+scoreboard objectives remove q_UUIDLeast
 
 scoreboard players set #lock pack_loaded -1

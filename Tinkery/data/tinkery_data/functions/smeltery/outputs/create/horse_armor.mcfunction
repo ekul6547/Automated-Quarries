@@ -1,0 +1,3 @@
+execute if score #tinkery t_output matches 0 if data entity @s ArmorItems[0].tag.Smeltery.TempItem.tag.TinkeryMat{id:"iron"} run function tinkery_data:smeltery/outputs/iron/horse_armor/test
+execute if score #tinkery t_output matches 0 if data entity @s ArmorItems[0].tag.Smeltery.TempItem.tag.TinkeryMat{id:"gold"} run function tinkery_data:smeltery/outputs/gold/horse_armor/test
+execute if score #tinkery t_output matches 0 if data entity @s ArmorItems[0].tag.Smeltery.TempItem.tag.TinkeryMat{id:"diamond"} run function tinkery_data:smeltery/outputs/diamond/horse_armor/test

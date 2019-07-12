@@ -1,0 +1,1 @@
+data modify block ~ ~0.6 ~ Items[{tag:{Active:1b}}].id set value "minecraft:bucket"

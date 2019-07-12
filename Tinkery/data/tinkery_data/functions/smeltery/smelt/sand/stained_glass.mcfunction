@@ -1,0 +1,16 @@
+execute if data block ~ ~ ~ Items[{id:"minecraft:white_stained_glass",tag:{Active:1b}}] run function tinkery_data:smeltery/materials/sand/testexists
+execute if data block ~ ~ ~ Items[{id:"minecraft:light_gray_stained_glass",tag:{Active:1b}}] run function tinkery_data:smeltery/materials/sand/testexists
+execute if data block ~ ~ ~ Items[{id:"minecraft:gray_stained_glass",tag:{Active:1b}}] run function tinkery_data:smeltery/materials/sand/testexists
+execute if data block ~ ~ ~ Items[{id:"minecraft:black_stained_glass",tag:{Active:1b}}] run function tinkery_data:smeltery/materials/sand/testexists
+execute if data block ~ ~ ~ Items[{id:"minecraft:light_blue_stained_glass",tag:{Active:1b}}] run function tinkery_data:smeltery/materials/sand/testexists
+execute if data block ~ ~ ~ Items[{id:"minecraft:blue_stained_glass",tag:{Active:1b}}] run function tinkery_data:smeltery/materials/sand/testexists
+execute if data block ~ ~ ~ Items[{id:"minecraft:purple_stained_glass",tag:{Active:1b}}] run function tinkery_data:smeltery/materials/sand/testexists
+execute if data block ~ ~ ~ Items[{id:"minecraft:red_stained_glass",tag:{Active:1b}}] run function tinkery_data:smeltery/materials/sand/testexists
+execute if data block ~ ~ ~ Items[{id:"minecraft:magenta_stained_glass",tag:{Active:1b}}] run function tinkery_data:smeltery/materials/sand/testexists
+execute if data block ~ ~ ~ Items[{id:"minecraft:pink_stained_glass",tag:{Active:1b}}] run function tinkery_data:smeltery/materials/sand/testexists
+execute if data block ~ ~ ~ Items[{id:"minecraft:green_stained_glass",tag:{Active:1b}}] run function tinkery_data:smeltery/materials/sand/testexists
+execute if data block ~ ~ ~ Items[{id:"minecraft:lime_stained_glass",tag:{Active:1b}}] run function tinkery_data:smeltery/materials/sand/testexists
+execute if data block ~ ~ ~ Items[{id:"minecraft:cyan_stained_glass",tag:{Active:1b}}] run function tinkery_data:smeltery/materials/sand/testexists
+execute if data block ~ ~ ~ Items[{id:"minecraft:yellow_stained_glass",tag:{Active:1b}}] run function tinkery_data:smeltery/materials/sand/testexists
+execute if data block ~ ~ ~ Items[{id:"minecraft:orange_stained_glass",tag:{Active:1b}}] run function tinkery_data:smeltery/materials/sand/testexists
+execute if data block ~ ~ ~ Items[{id:"minecraft:brown_stained_glass",tag:{Active:1b}}] run function tinkery_data:smeltery/materials/sand/testexists

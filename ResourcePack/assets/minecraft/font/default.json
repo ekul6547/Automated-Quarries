@@ -2,155 +2,1189 @@
     "providers": [
         {
             "type": "bitmap",
-            "file": "lapis:font/lapis_workbench.png",
-            "ascent": 24,
-            "height": 139,
+            "file": "lapis:font/icon/lapis_lazuli.png",
+            "ascent": 16,
+            "height": 24,
             "chars": [
-                "\uEda1"
+                "\uEd00"
             ]
         },
         {
             "type": "bitmap",
-            "file": "lapis:font/lockbox.png",
-            "ascent": 24,
-            "height": 139,
+            "file": "lapis:font/icon/lapis_block.png",
+            "ascent": 16,
+            "height": 24,
             "chars": [
-                "\uEda2"
+                "\ued01"
             ]
         },
         {
             "type": "bitmap",
-            "file": "quarry:font/battery.png",
-            "ascent": 24,
-            "height": 139,
+            "file": "lapis:font/icon/redstone.png",
+            "ascent": 16,
+            "height": 24,
             "chars": [
-                "\uEda3"
+                "\ued02"
             ]
         },
         {
             "type": "bitmap",
-            "file": "quarry:font/charger.png",
-            "ascent": 24,
-            "height": 139,
+            "file": "lapis:font/icon/redstone_block.png",
+            "ascent": 16,
+            "height": 24,
             "chars": [
-                "\uEda4"
+                "\ued03"
             ]
         },
         {
             "type": "bitmap",
-            "file": "quarry:font/quarry.png",
-            "ascent": 24,
-            "height": 139,
+            "file": "lapis:font/icon/iron_bars.png",
+            "ascent": 16,
+            "height": 24,
             "chars": [
-                "\uEda5"
+                "\ued04"
             ]
         },
         {
             "type": "bitmap",
-            "file": "quarry:font/drill.png",
-            "ascent": 24,
-            "height": 139,
+            "file": "lapis:font/icon/smithing_table_front.png",
+            "ascent": 16,
+            "height": 24,
             "chars": [
-                "\uEda6"
+                "\ued05"
             ]
         },
         {
             "type": "bitmap",
-            "file": "quarry:font/katana.png",
-            "ascent": 24,
-            "height": 139,
+            "file": "lapis:font/icon/iron_ingot.png",
+            "ascent": 16,
+            "height": 24,
             "chars": [
-                "\uEda7"
+                "\ued06"
             ]
         },
         {
             "type": "bitmap",
-            "file": "quarry:font/techno.png",
-            "ascent": 24,
-            "height": 139,
+            "file": "lapis:font/icon/chest.png",
+            "ascent": 16,
+            "height": 24,
             "chars": [
-                "\uEda8"
+                "\ued07"
             ]
         },
         {
             "type": "bitmap",
-            "file": "quarry:font/dampener.png",
-            "ascent": 24,
-            "height": 139,
+            "file": "lapis:font/icon/cartography_table_side2.png",
+            "ascent": 16,
+            "height": 24,
             "chars": [
-                "\uEda9"
+                "\ued08"
             ]
         },
         {
             "type": "bitmap",
-            "file": "storage:font/controller.png",
-            "ascent": 24,
-            "height": 139,
+            "file": "lapis:font/icon/fletching_table_front.png",
+            "ascent": 16,
+            "height": 24,
             "chars": [
-                "\uEdb1"
+                "\ued09"
             ]
         },
         {
             "type": "bitmap",
-            "file": "storage:font/server.png",
-            "ascent": 24,
-            "height": 139,
+            "file": "lapis:font/icon/iron_nugget.png",
+            "ascent": 16,
+            "height": 24,
             "chars": [
-                "\uEdb2"
+                "\ued0a"
             ]
         },
         {
             "type": "bitmap",
-            "file": "storage:font/terminal.png",
-            "ascent": 24,
-            "height": 139,
+            "file": "lapis:font/icon/gold_ingot.png",
+            "ascent": 16,
+            "height": 24,
             "chars": [
-                "\uEdb3"
+                "\ued0b"
             ]
         },
         {
             "type": "bitmap",
-            "file": "storage:font/wireless_terminal.png",
-            "ascent": 24,
-            "height": 139,
+            "file": "lapis:font/icon/gold_nugget.png",
+            "ascent": 16,
+            "height": 24,
             "chars": [
-                "\uEdb4"
+                "\ued0c"
             ]
         },
         {
             "type": "bitmap",
-            "file": "tinkery:font/blueprint.png",
-            "ascent": 24,
-            "height": 139,
+            "file": "lapis:font/icon/nether_star.png",
+            "ascent": 16,
+            "height": 24,
             "chars": [
-                "\uEdd1"
+                "\ued0d"
             ]
         },
         {
             "type": "bitmap",
-            "file": "tinkery:font/blueprinter.png",
-            "ascent": 24,
-            "height": 139,
+            "file": "lapis:font/icon/comparator.png",
+            "ascent": 16,
+            "height": 24,
             "chars": [
-                "\uEdd2"
+                "\ued0e"
             ]
         },
         {
             "type": "bitmap",
-            "file": "tinkery:font/constructor.png",
-            "ascent": 24,
-            "height": 139,
+            "file": "lapis:font/icon/hopper.png",
+            "ascent": 16,
+            "height": 24,
             "chars": [
-                "\uEdd3"
+                "\ued0f"
             ]
         },
         {
             "type": "bitmap",
-            "file": "tinkery:font/modifier.png",
+            "file": "lapis:font/icon/diamond.png",
+            "ascent": 16,
+            "height": 24,
+            "chars": [
+                "\ued10"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/diamond_block.png",
+            "ascent": 16,
+            "height": 24,
+            "chars": [
+                "\ued11"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/diamond_pickaxe.png",
+            "ascent": 16,
+            "height": 24,
+            "chars": [
+                "\ued12"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/diamond_shovel.png",
+            "ascent": 16,
+            "height": 24,
+            "chars": [
+                "\ued13"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/diamond_axe.png",
+            "ascent": 16,
+            "height": 24,
+            "chars": [
+                "\ued14"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/diamond_hoe.png",
+            "ascent": 16,
+            "height": 24,
+            "chars": [
+                "\ued15"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/diamond_sword.png",
+            "ascent": 16,
+            "height": 24,
+            "chars": [
+                "\ued16"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/diamond_armor.png",
+            "ascent": 16,
+            "height": 24,
+            "chars": [
+                "\ued17"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/battery_uncharged.png",
+            "ascent": 16,
+            "height": 24,
+            "chars": [
+                "\ued18"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/battery_charged.png",
+            "ascent": 16,
+            "height": 24,
+            "chars": [
+                "\ued19"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/ender_chest.png",
+            "ascent": 16,
+            "height": 24,
+            "chars": [
+                "\ued1a"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/orange_concrete.png",
+            "ascent": 16,
+            "height": 24,
+            "chars": [
+                "\ued1b"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/black_concrete.png",
+            "ascent": 16,
+            "height": 24,
+            "chars": [
+                "\ued1c"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/ender_pearl.png",
+            "ascent": 16,
+            "height": 24,
+            "chars": [
+                "\ued1d"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/ender_eye.png",
+            "ascent": 16,
+            "height": 24,
+            "chars": [
+                "\ued1e"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/end_crystal.png",
+            "ascent": 16,
+            "height": 24,
+            "chars": [
+                "\ued1f"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/emerald.png",
+            "ascent": 16,
+            "height": 24,
+            "chars": [
+                "\ued20"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/emerald_block.png",
+            "ascent": 16,
+            "height": 24,
+            "chars": [
+                "\ued21"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/glass.png",
+            "ascent": 16,
+            "height": 24,
+            "chars": [
+                "\ued22"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/redstone_torch.png",
+            "ascent": 16,
+            "height": 24,
+            "chars": [
+                "\ued23"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/phantom_membrane.png",
+            "ascent": 16,
+            "height": 24,
+            "chars": [
+                "\ued24"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/terminal.png",
+            "ascent": 16,
+            "height": 24,
+            "chars": [
+                "\ued25"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/rabbit_hide.png",
+            "ascent": 16,
+            "height": 24,
+            "chars": [
+                "\ued26"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/brick.png",
+            "ascent": 16,
+            "height": 24,
+            "chars": [
+                "\ued27"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/blast_furnace.png",
+            "ascent": 16,
+            "height": 24,
+            "chars": [
+                "\ued28"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/blueprint.png",
+            "ascent": 16,
+            "height": 24,
+            "chars": [
+                "\ued29"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/paper.png",
+            "ascent": 16,
+            "height": 24,
+            "chars": [
+                "\ued2a"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/light_blue_dye.png",
+            "ascent": 16,
+            "height": 24,
+            "chars": [
+                "\ued2b"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/iron_pressure_plate.png",
+            "ascent": 16,
+            "height": 24,
+            "chars": [
+                "\ued2c"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/enchanting_table.png",
+            "ascent": 16,
+            "height": 24,
+            "chars": [
+                "\ued2d"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/stone_bricks.png",
+            "ascent": 16,
+            "height": 24,
+            "chars": [
+                "\ued2e"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/lava_bucket.png",
+            "ascent": 16,
+            "height": 24,
+            "chars": [
+                "\ued2f"
+            ]
+        },
+
+
+
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/iron_ingot.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\ued30"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/iron_block.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\ued31"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/iron_nugget.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\ued32"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/gold_ingot.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\ued33"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/gold_block.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\ued34"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/gold_nugget.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\ued35"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/brick.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\ued36"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/nether_brick.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\ued37"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/steel_ingot.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\ued38"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/steel_block.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\ued39"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/steel_nugget.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\ued3a"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/graphite.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\ued3b"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/coal.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\ued3c"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/charcoal.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\ued3d"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/coal_block.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\ued3e"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/flint.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\ued3f"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/diamond.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\ued40"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/emerald.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\ued41"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/quartz.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\ued42"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/lapis_lazuli.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\ued43"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/diamond_block.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\ued44"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/emerald_block.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\ued45"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/quartz_block.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\ued46"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/lapis_block.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\ued47"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/redstone.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\ued48"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/redstone_block.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\ued49"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/glowstone_dust.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\ued4a"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/glowstone.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\ued4b"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/diamond_horse_armor.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\ued4c"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/golden_horse_armor.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\ued4d"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/iron_horse_armor.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\ued4e"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/gravel.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\ued4f"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/netherrack.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\ued51"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/nether_bricks.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\ued52"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/magma_block.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\ued53"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/obsidian.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\ued54"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/bricks.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\ued55"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/quartz_block.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\ued56"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/quartz_smooth.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\ued57"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/quartz_pillar.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\ued58"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/quartz_chiseled.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\ued59"
+            ]
+        },
+
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/glass.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\ued5a"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/sand.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\ued5b"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/sandstone.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\ued5c"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/sandstone_smooth.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\ued5d"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/sandstone_cut.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\ued5e"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/sandstone_chiseled.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\ued5f"
+            ]
+        },
+
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/red_sandstone.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\ued60"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/red_sandstone_smooth.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\ued61"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/red_sandstone_cut.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\ued62"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/red_sandstone_chiseled.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\ued63"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/white_concrete.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\ued64"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/obsidian.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\ued65"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/stone.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\ued66"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/stone_bricks.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\ued67"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/stone_bricks_cracked.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\ued68"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/stone_bricks_chiseled.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\ued69"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/stone_bricks_mossy.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\ued6a"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/cobblestone.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\ued6b"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/cobblestone_mossy.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\ued6c"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/stone_smooth.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\ued6d"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/bucket.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\ued6e"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/lava_bucket.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\ued6f"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/terracotta.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\ued70"
+            ]
+        },
+
+
+
+        {
+            "type": "bitmap",
+            "file": "tinkery:font/smeltery_key.png",
             "ascent": 24,
             "height": 139,
             "chars": [
-                "\uEdd4"
+                "\uEdd7"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "tinkery:font/smeltery_instructions.png",
+            "ascent": 24,
+            "height": 139,
+            "chars": [
+                "\uEdd8"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "tinkery:font/valve_instructions.png",
+            "ascent": 24,
+            "height": 139,
+            "chars": [
+                "\uEdd9"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/blank.png",
+            "ascent": 16,
+            "height": 24,
+            "chars": [
+                "\uede0"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/arrow_right.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\uede1"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/water_arrow_right.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\uede2"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/cast_ingot.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\uede3"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/cast_nugget.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\uede4"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/cast_dust.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\uede5"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/cast_gem.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\uede6"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/cast_horse_armor.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\uede7"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/blank.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\uede8"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/stonecutter.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\uede9"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/rainbow.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\uedea"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/stone_sword.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\uedeb"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/stone_pickaxe.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\uedec"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/diamond_pickaxe.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\ueded"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/vine.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\uedee"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/grass.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\uedef"
             ]
         }
     ]

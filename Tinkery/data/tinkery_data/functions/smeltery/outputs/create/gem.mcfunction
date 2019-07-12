@@ -1,0 +1,6 @@
+execute if score #tinkery t_output matches 0 if data entity @s ArmorItems[0].tag.Smeltery.TempItem.tag.TinkeryMat{id:"coal"} run function tinkery_data:smeltery/outputs/coal/gem/test
+execute if score #tinkery t_output matches 0 if data entity @s ArmorItems[0].tag.Smeltery.TempItem.tag.TinkeryMat{id:"diamond"} run function tinkery_data:smeltery/outputs/diamond/gem/test
+execute if score #tinkery t_output matches 0 if data entity @s ArmorItems[0].tag.Smeltery.TempItem.tag.TinkeryMat{id:"lapis"} run function tinkery_data:smeltery/outputs/lapis/gem/test
+execute if score #tinkery t_output matches 0 if data entity @s ArmorItems[0].tag.Smeltery.TempItem.tag.TinkeryMat{id:"emerald"} run function tinkery_data:smeltery/outputs/emerald/gem/test
+execute if score #tinkery t_output matches 0 if data entity @s ArmorItems[0].tag.Smeltery.TempItem.tag.TinkeryMat{id:"quartz"} run function tinkery_data:smeltery/outputs/quartz/gem/test
+execute if score #tinkery t_output matches 0 if data entity @s ArmorItems[0].tag.Smeltery.TempItem.tag.TinkeryMat{id:"gravel"} run function tinkery_data:smeltery/outputs/gravel/gem/test

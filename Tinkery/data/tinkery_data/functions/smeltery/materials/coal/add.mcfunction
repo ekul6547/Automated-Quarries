@@ -1,0 +1,1 @@
+data modify entity @s ArmorItems[0].tag.Smeltery.Items append value {TinkeryMat:{id:"coal",color:2434341,ToolDur:128,ArmorDur:[84,128,132,96],Addons:[]},BaseItem:{id:"minecraft:coal",Count:1b},Amount:0}

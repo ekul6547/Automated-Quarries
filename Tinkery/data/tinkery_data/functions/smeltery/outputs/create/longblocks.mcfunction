@@ -1,0 +1,7 @@
+execute if score #tinkery t_output matches 0 if data entity @s ArmorItems[0].tag.Smeltery.TempItem.tag.TinkeryMat{id:"concrete"} run function tinkery_data:smeltery/outputs/concrete/block/test
+execute if score #tinkery t_output matches 0 if data entity @s ArmorItems[0].tag.Smeltery.TempItem.tag.TinkeryMat{id:"gravel"} run function tinkery_data:smeltery/outputs/gravel/block/test
+execute if score #tinkery t_output matches 0 if data entity @s ArmorItems[0].tag.Smeltery.TempItem.tag.TinkeryMat{id:"sand"} run function tinkery_data:smeltery/outputs/sand/blocks
+execute if score #tinkery t_output matches 0 if data entity @s ArmorItems[0].tag.Smeltery.TempItem.tag.TinkeryMat{id:"quartz"} run function tinkery_data:smeltery/outputs/quartz/blocks
+execute if score #tinkery t_output matches 0 if data entity @s ArmorItems[0].tag.Smeltery.TempItem.tag.TinkeryMat{id:"stone"} run function tinkery_data:smeltery/outputs/stone/blocks
+execute if score #tinkery t_output matches 0 if data entity @s ArmorItems[0].tag.Smeltery.TempItem.tag.TinkeryMat{id:"red_sand"} run function tinkery_data:smeltery/outputs/red_sand/blocks
+execute if score #tinkery t_output matches 0 if data entity @s ArmorItems[0].tag.Smeltery.TempItem.tag.TinkeryMat{id:"brick"} run function tinkery_data:smeltery/outputs/brick/dyed_terracotta/test

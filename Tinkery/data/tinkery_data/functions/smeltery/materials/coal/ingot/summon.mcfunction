@@ -1,0 +1,1 @@
+summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:coal",Count:1b,tag:{CustomModelData:1000,display:{Name:'{"text":"Graphite Ingot","italic":false}'},TinkeryMat:{id:"coal",color:2434341,ToolDur:128,ArmorDur:[84,128,132,96],Addons:[]}}}}

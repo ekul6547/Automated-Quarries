@@ -1,0 +1,1 @@
+execute if score #tinkery t_output matches 0 if data entity @s ArmorItems[0].tag.Smeltery.TempItem.tag.TinkeryMat{id:"lava"} run function tinkery_data:smeltery/outputs/lava/bucket/test

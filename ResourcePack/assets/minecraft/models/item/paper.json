@@ -4,6 +4,19 @@
         "layer0": "item/paper"
     },
     "overrides": [
-        { "predicate": {"custom_model_data": 1000}, "model": "tinkery:item/blueprint"}
+        { "predicate": {"custom_model_data": 1000}, "model": "tinkery:item/blueprint"},
+        { "predicate": {"custom_model_data": 1100}, "model": "tinkery:item/cast/blank"},
+        { "predicate": {"custom_model_data": 1101}, "model": "tinkery:item/cast/ingot"},
+        { "predicate": {"custom_model_data": 1102}, "model": "tinkery:item/cast/nugget"},
+        { "predicate": {"custom_model_data": 1103}, "model": "tinkery:item/cast/stick"},
+        { "predicate": {"custom_model_data": 1104}, "model": "tinkery:item/cast/gem"},
+        { "predicate": {"custom_model_data": 1105}, "model": "tinkery:item/cast/dust"},
+        { "predicate": {"custom_model_data": 1106}, "model": "tinkery:item/cast/horse_armor"},
+        { "predicate": {"custom_model_data": 1110}, "model": "tinkery:item/cast/hilt"},
+        { "predicate": {"custom_model_data": 1111}, "model": "tinkery:item/cast/pick_head"},
+        { "predicate": {"custom_model_data": 1112}, "model": "tinkery:item/cast/shovel_head"},
+        { "predicate": {"custom_model_data": 1113}, "model": "tinkery:item/cast/hoe_head"},
+        { "predicate": {"custom_model_data": 1114}, "model": "tinkery:item/cast/axe_head"},
+        { "predicate": {"custom_model_data": 1115}, "model": "tinkery:item/cast/hoe_head"}
     ]
 }

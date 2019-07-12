@@ -3,7 +3,7 @@ scoreboard players operation @s prelookY = @s lookY
 scoreboard players operation @s prelookZ = @s lookZ
 
 scoreboard players set #look lookSet 0
-scoreboard players set #look lookCount 0
+execute if score #look lookCount matches 0 run scoreboard players set #look lookCount 100
 
 execute at @s anchored eyes run tp @e[tag=q_PDraw,limit=1] ~ ~ ~
 #tp @e[tag=DEBUG] @e[tag=q_PDraw,limit=1]
@@ -20,4 +20,4 @@ execute if score #look lookSet matches 1 as @s store result score @s lookY run d
 execute if score #look lookSet matches 1 as @s store result score @s lookZ run data get entity @e[tag=q_PDraw,limit=1] Pos[2]
 
 #title @s actionbar ["",{"score":{"name":"@s","objective":"lookX"}},{"score":{"name":"@s","objective":"lookY"}},{"score":{"name":"@s","objective":"lookZ"}}]
-tp @e[tag=q_PDraw] 0 0 0
+#tp @e[tag=q_PDraw] 0 0 0

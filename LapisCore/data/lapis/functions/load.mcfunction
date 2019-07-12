@@ -32,12 +32,15 @@ scoreboard objectives add direction dummy
 scoreboard objectives add const dummy
 
 scoreboard objectives add LapisBook trigger
+scoreboard objectives add LapisStep dummy
+scoreboard objectives add LoggedOut minecraft.custom:minecraft.leave_game
 
 #Admin Menu
 scoreboard objectives add LapisAdminMenu trigger
 scoreboard objectives add LapisAdmin dummy
 scoreboard objectives add LapisAdmin2 dummy
 scoreboard objectives add LapisOverride dummy
+scoreboard objectives add LapisBlockPlaced minecraft.used:minecraft.squid_spawn_egg
 
 #Workbench
 #WorkbenchItems - 1 = no items, don't bother checking for crafting   -   0 = has items, check for crafting
@@ -50,4 +53,4 @@ scoreboard players set * LapisAdmin 0
 scoreboard players set * LapisAdmin2 0
 
 
-tellraw @a ["",{"text":"Loaded "},{"text":"[LapisCore] v0.4","color":"dark_blue","clickEvent":{"action":"run_command","value":"/trigger LapisBook"},"hoverEvent":{"action":"show_text","value":"Click here to get the tutorial book"}},{"text":" By RE:Lapis","color":"gray"}]
+tellraw @a ["",{"text":"Loaded "},{"text":"[LapisCore] v0.5","color":"dark_blue","clickEvent":{"action":"run_command","value":"/trigger LapisBook"},"hoverEvent":{"action":"show_text","value":"Click here to get the tutorial book"}},{"text":" By RE:Lapis","color":"gray"}]

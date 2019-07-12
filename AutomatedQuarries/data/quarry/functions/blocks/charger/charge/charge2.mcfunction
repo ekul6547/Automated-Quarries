@@ -6,7 +6,7 @@ execute as @s at @s if score @s qmin_x < @s qmax_x run scoreboard players operat
 execute as @s at @s store result block ~ ~0.5 ~ Items[{Slot:2b}].tag.Power.current int 1 run scoreboard players get @s qmin_x
 
 execute as @s at @s if score @s qmin_x matches 5.. run data modify block ~ ~0.5 ~ Items[{Slot:2b}].tag.CustomModelData set value 101
-execute as @s at @s if score @s qmin_x matches 1000.. run data modify block ~ ~0.5 ~ Items[{Slot:2b,id:"minecraft:spider_eye"}].tag.CustomModelData set value 102
+execute as @s at @s if score @s qmin_x matches 1000.. if data block ~ ~0.5 ~ Items[{Slot:2b,id:"minecraft:spider_eye"}] run data modify block ~ ~0.5 ~ Items[{Slot:2b}].tag.CustomModelData set value 102
 execute as @s at @s if score @s qmin_x < @s qmax_x run data modify block ~ ~0.5 ~ Items[{Slot:2b}].tag.display.Lore[1] set value "{\"text\":\"Charging\",\"color\":\"dark_red\"}"
 execute as @s at @s if score @s qmin_x >= @s qmax_x run data modify block ~ ~0.5 ~ Items[{Slot:2b}].tag.display.Lore[1] set value "{\"text\":\"Charge complete\",\"color\":\"dark_green\"}"
 

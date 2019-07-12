@@ -1,0 +1,2 @@
+execute at @s anchored eyes if score @s t_horse_drop matches 1.. if score @s t_sneaking matches 1.. unless data entity @s Inventory[{Slot:103b}] as @e[type=item,sort=nearest,nbt={Item:{id:"minecraft:leather_horse_armor",tag:{Valve:1b}}},limit=1,distance=..1] at @s run function tinkery:items/valve/sethead
+scoreboard players set @s t_horse_drop 0

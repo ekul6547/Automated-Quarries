@@ -1,0 +1,16 @@
+execute if score #tinkery t_output matches 0 if data block ~ ~ ~ Items[{id:"minecraft:white_concrete",tag:{Active:1b}}] run function tinkery_data:smeltery/materials/concrete/testexists
+execute if score #tinkery t_output matches 0 if data block ~ ~ ~ Items[{id:"minecraft:light_gray_concrete",tag:{Active:1b}}] run function tinkery_data:smeltery/materials/concrete/testexists
+execute if score #tinkery t_output matches 0 if data block ~ ~ ~ Items[{id:"minecraft:gray_concrete",tag:{Active:1b}}] run function tinkery_data:smeltery/materials/concrete/testexists
+execute if score #tinkery t_output matches 0 if data block ~ ~ ~ Items[{id:"minecraft:black_concrete",tag:{Active:1b}}] run function tinkery_data:smeltery/materials/concrete/testexists
+execute if score #tinkery t_output matches 0 if data block ~ ~ ~ Items[{id:"minecraft:light_blue_concrete",tag:{Active:1b}}] run function tinkery_data:smeltery/materials/concrete/testexists
+execute if score #tinkery t_output matches 0 if data block ~ ~ ~ Items[{id:"minecraft:blue_concrete",tag:{Active:1b}}] run function tinkery_data:smeltery/materials/concrete/testexists
+execute if score #tinkery t_output matches 0 if data block ~ ~ ~ Items[{id:"minecraft:purple_concrete",tag:{Active:1b}}] run function tinkery_data:smeltery/materials/concrete/testexists
+execute if score #tinkery t_output matches 0 if data block ~ ~ ~ Items[{id:"minecraft:red_concrete",tag:{Active:1b}}] run function tinkery_data:smeltery/materials/concrete/testexists
+execute if score #tinkery t_output matches 0 if data block ~ ~ ~ Items[{id:"minecraft:magenta_concrete",tag:{Active:1b}}] run function tinkery_data:smeltery/materials/concrete/testexists
+execute if score #tinkery t_output matches 0 if data block ~ ~ ~ Items[{id:"minecraft:pink_concrete",tag:{Active:1b}}] run function tinkery_data:smeltery/materials/concrete/testexists
+execute if score #tinkery t_output matches 0 if data block ~ ~ ~ Items[{id:"minecraft:green_concrete",tag:{Active:1b}}] run function tinkery_data:smeltery/materials/concrete/testexists
+execute if score #tinkery t_output matches 0 if data block ~ ~ ~ Items[{id:"minecraft:lime_concrete",tag:{Active:1b}}] run function tinkery_data:smeltery/materials/concrete/testexists
+execute if score #tinkery t_output matches 0 if data block ~ ~ ~ Items[{id:"minecraft:cyan_concrete",tag:{Active:1b}}] run function tinkery_data:smeltery/materials/concrete/testexists
+execute if score #tinkery t_output matches 0 if data block ~ ~ ~ Items[{id:"minecraft:yellow_concrete",tag:{Active:1b}}] run function tinkery_data:smeltery/materials/concrete/testexists
+execute if score #tinkery t_output matches 0 if data block ~ ~ ~ Items[{id:"minecraft:orange_concrete",tag:{Active:1b}}] run function tinkery_data:smeltery/materials/concrete/testexists
+execute if score #tinkery t_output matches 0 if data block ~ ~ ~ Items[{id:"minecraft:brown_concrete",tag:{Active:1b}}] run function tinkery_data:smeltery/materials/concrete/testexists

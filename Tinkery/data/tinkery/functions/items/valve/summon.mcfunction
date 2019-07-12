@@ -1,0 +1,1 @@
+summon minecraft:item ~ ~1 ~ {Item:{id:"minecraft:leather_horse_armor",Count:1b,tag:{display:{Name:"{\"text\":\"Valve\",\"italic\":false}",color:0},CustomModelData:1000,Valve:1b}}}

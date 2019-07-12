@@ -1,0 +1,8 @@
+execute if score #tinkery t_output matches 0 if data entity @s ArmorItems[0].tag.Smeltery.TempItem.tag.TinkeryMat{id:"stone"} run function tinkery_data:smeltery/outputs/stone/stone/test
+execute if score #tinkery t_output matches 0 if data entity @s ArmorItems[0].tag.Smeltery.TempItem.tag.TinkeryMat{id:"stone"} run function tinkery_data:smeltery/outputs/stone/cobblestone/test
+execute if score #tinkery t_output matches 0 if data entity @s ArmorItems[0].tag.Smeltery.TempItem.tag.TinkeryMat{id:"stone"} run function tinkery_data:smeltery/outputs/stone/smooth_stone/test
+execute if score #tinkery t_output matches 0 if data entity @s ArmorItems[0].tag.Smeltery.TempItem.tag.TinkeryMat{id:"stone"} run function tinkery_data:smeltery/outputs/stone/stone_bricks/test
+execute if score #tinkery t_output matches 0 if data entity @s ArmorItems[0].tag.Smeltery.TempItem.tag.TinkeryMat{id:"stone"} run function tinkery_data:smeltery/outputs/stone/cracked_stone_bricks/test
+execute if score #tinkery t_output matches 0 if data entity @s ArmorItems[0].tag.Smeltery.TempItem.tag.TinkeryMat{id:"stone"} run function tinkery_data:smeltery/outputs/stone/chiseled_stone_bricks/test
+execute if score #tinkery t_output matches 0 if data entity @s ArmorItems[0].tag.Smeltery.TempItem.tag.TinkeryMat{id:"stone"} run function tinkery_data:smeltery/outputs/stone/mossy_cobblestone/test
+execute if score #tinkery t_output matches 0 if data entity @s ArmorItems[0].tag.Smeltery.TempItem.tag.TinkeryMat{id:"stone"} run function tinkery_data:smeltery/outputs/stone/mossy_stone_bricks/test

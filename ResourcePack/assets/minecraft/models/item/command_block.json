@@ -23,6 +23,9 @@
         { "predicate": {"custom_model_data": 999}, "model": "lapis:block/invisible"},
         { "predicate": {"custom_model_data": 1000}, "model": "tinkery:block/modifier_inverse"},
         { "predicate": {"custom_model_data": 1001}, "model": "tinkery:block/constructor_inverse"},
-        { "predicate": {"custom_model_data": 1002}, "model": "tinkery:block/blueprinter_inverse"}
+        { "predicate": {"custom_model_data": 1002}, "model": "tinkery:block/blueprinter_inverse"},
+        { "predicate": {"custom_model_data": 1003}, "model": "tinkery:block/smeltery_inverse"},
+        { "predicate": {"custom_model_data": 1004}, "model": "tinkery:block/smeltery_on_inverse"},
+        { "predicate": {"custom_model_data": 1100}, "model": "tinkery:block/materials/steel_block_inverse"}
     ]
 }

@@ -1,0 +1,10 @@
+{
+	"values": [
+		"tinkery_data:smeltery/outputs/casts/blank/test",
+		"tinkery_data:smeltery/outputs/casts/ingot/test",
+		"tinkery_data:smeltery/outputs/casts/gem/test",
+		"tinkery_data:smeltery/outputs/casts/nugget/test",
+		"tinkery_data:smeltery/outputs/casts/dust/test",
+		"tinkery_data:smeltery/outputs/casts/horse_armor/test"
+	]
+}

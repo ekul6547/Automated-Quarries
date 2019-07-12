@@ -12,13 +12,11 @@
 function tinkery:blocks/blockmain
 function tinkery:items/itemmain
 
-execute as @a if score @s TinkeryBook matches 1 run function tinkery:book/summonmain
-execute as @a if score @s TinkeryBook matches 2 run function tinkery:book/summonattr
-execute as @a if score @s TinkeryBook matches 3 run function tinkery:book/summontemplate
-scoreboard players enable @a TinkeryBook
+kill @e[type=minecraft:item,nbt={Item:{tag:{DelEntity:1b}}}]
+execute as @a run function tinkery:perplayer
 
-scoreboard players set #tinkery const 20
+scoreboard players set #tinkery const 100
 scoreboard players add #tinkery L_Age 1
-scoreboard players operation #tinkery L_Age %= #lapis const
+scoreboard players operation #tinkery L_Age %= #tinkery const
 
-clear @a minecraft:barrier{MenuItem:1}
+clear @a #lapis:all_items{MenuItem:1}

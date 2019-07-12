@@ -1,0 +1,6 @@
+execute if score #tinkery t_output matches 0 if data entity @s ArmorItems[0].tag.Smeltery.TempItem.tag.TinkeryMat{id:"iron"} run function tinkery_data:smeltery/outputs/iron/ingot/test
+execute if score #tinkery t_output matches 0 if data entity @s ArmorItems[0].tag.Smeltery.TempItem.tag.TinkeryMat{id:"gold"} run function tinkery_data:smeltery/outputs/gold/ingot/test
+execute if score #tinkery t_output matches 0 if data entity @s ArmorItems[0].tag.Smeltery.TempItem.tag.TinkeryMat{id:"coal"} run function tinkery_data:smeltery/outputs/coal/ingot/test
+execute if score #tinkery t_output matches 0 if data entity @s ArmorItems[0].tag.Smeltery.TempItem.tag.TinkeryMat{id:"steel"} run function tinkery_data:smeltery/outputs/steel/ingot/test
+execute if score #tinkery t_output matches 0 if data entity @s ArmorItems[0].tag.Smeltery.TempItem.tag.TinkeryMat{id:"brick"} run function tinkery_data:smeltery/outputs/brick/ingot/test
+execute if score #tinkery t_output matches 0 if data entity @s ArmorItems[0].tag.Smeltery.TempItem.tag.TinkeryMat{id:"netherrack"} run function tinkery_data:smeltery/outputs/netherrack/ingot/test

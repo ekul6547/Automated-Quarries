@@ -1,0 +1,11 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/leather_horse_armor"
+    },
+    "overrides": [
+        { "predicate": {"custom_model_data": 1000}, "model": "tinkery:block/valve"},
+        { "predicate": {"custom_model_data": 1001}, "model": "tinkery:block/valve_liquid"},
+        { "predicate": {"custom_model_data": 1002}, "model": "tinkery:smeltery_inside"}
+    ]
+}

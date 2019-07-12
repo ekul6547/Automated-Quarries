@@ -1,0 +1,10 @@
+#The amount to increase by
+scoreboard players set #smeltery t_dum1 180
+execute if score @s t_s_heat matches 100.. unless data block ~ ~ ~ Items[{tag:{Active:1b}}].tag.TinkeryMat if data block ~ ~ ~ Items[{id:"minecraft:stone",tag:{Active:1b}}] run function tinkery_data:smeltery/materials/stone/testexists
+execute if score @s t_s_heat matches 100.. unless data block ~ ~ ~ Items[{tag:{Active:1b}}].tag.TinkeryMat if data block ~ ~ ~ Items[{id:"minecraft:cobblestone",tag:{Active:1b}}] run function tinkery_data:smeltery/materials/stone/testexists
+execute if score @s t_s_heat matches 100.. unless data block ~ ~ ~ Items[{tag:{Active:1b}}].tag.TinkeryMat if data block ~ ~ ~ Items[{id:"minecraft:smooth_stone",tag:{Active:1b}}] run function tinkery_data:smeltery/materials/stone/testexists
+execute if score @s t_s_heat matches 100.. unless data block ~ ~ ~ Items[{tag:{Active:1b}}].tag.TinkeryMat if data block ~ ~ ~ Items[{id:"minecraft:stone_bricks",tag:{Active:1b}}] run function tinkery_data:smeltery/materials/stone/testexists
+execute if score @s t_s_heat matches 100.. unless data block ~ ~ ~ Items[{tag:{Active:1b}}].tag.TinkeryMat if data block ~ ~ ~ Items[{id:"minecraft:cracked_stone_bricks",tag:{Active:1b}}] run function tinkery_data:smeltery/materials/stone/testexists
+execute if score @s t_s_heat matches 100.. unless data block ~ ~ ~ Items[{tag:{Active:1b}}].tag.TinkeryMat if data block ~ ~ ~ Items[{id:"minecraft:chiseled_stone_bricks",tag:{Active:1b}}] run function tinkery_data:smeltery/materials/stone/testexists
+execute if score @s t_s_heat matches 100.. unless data block ~ ~ ~ Items[{tag:{Active:1b}}].tag.TinkeryMat if data block ~ ~ ~ Items[{id:"minecraft:mossy_cobblestone",tag:{Active:1b}}] run function tinkery_data:smeltery/materials/stone/testexists
+execute if score @s t_s_heat matches 100.. unless data block ~ ~ ~ Items[{tag:{Active:1b}}].tag.TinkeryMat if data block ~ ~ ~ Items[{id:"minecraft:mossy_stone_bricks",tag:{Active:1b}}] run function tinkery_data:smeltery/materials/stone/testexists

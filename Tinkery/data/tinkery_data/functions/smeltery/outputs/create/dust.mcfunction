@@ -1,0 +1,2 @@
+execute if score #tinkery t_output matches 0 if data entity @s ArmorItems[0].tag.Smeltery.TempItem.tag.TinkeryMat{id:"redstone"} run function tinkery_data:smeltery/outputs/redstone/dust/test
+execute if score #tinkery t_output matches 0 if data entity @s ArmorItems[0].tag.Smeltery.TempItem.tag.TinkeryMat{id:"glowstone"} run function tinkery_data:smeltery/outputs/glowstone/dust/test

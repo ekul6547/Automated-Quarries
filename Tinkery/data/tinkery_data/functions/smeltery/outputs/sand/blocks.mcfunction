@@ -1,0 +1,6 @@
+execute if score #tinkery t_output matches 0 if data entity @s ArmorItems[0].tag.Smeltery.TempItem.tag.TinkeryMat{id:"sand"} run function tinkery_data:smeltery/outputs/sand/glass/test
+execute if score #tinkery t_output matches 0 if data entity @s ArmorItems[0].tag.Smeltery.TempItem.tag.TinkeryMat{id:"sand"} run function tinkery_data:smeltery/outputs/sand/sandstone/test
+execute if score #tinkery t_output matches 0 if data entity @s ArmorItems[0].tag.Smeltery.TempItem.tag.TinkeryMat{id:"sand"} run function tinkery_data:smeltery/outputs/sand/cut_sandstone/test
+execute if score #tinkery t_output matches 0 if data entity @s ArmorItems[0].tag.Smeltery.TempItem.tag.TinkeryMat{id:"sand"} run function tinkery_data:smeltery/outputs/sand/smooth_sandstone/test
+execute if score #tinkery t_output matches 0 if data entity @s ArmorItems[0].tag.Smeltery.TempItem.tag.TinkeryMat{id:"sand"} run function tinkery_data:smeltery/outputs/sand/chiseled_sandstone/test
+execute if score #tinkery t_output matches 0 if data entity @s ArmorItems[0].tag.Smeltery.TempItem.tag.TinkeryMat{id:"sand"} run function tinkery_data:smeltery/outputs/sand/stained_glass/test

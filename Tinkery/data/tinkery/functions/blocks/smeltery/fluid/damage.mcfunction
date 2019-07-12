@@ -1,0 +1,3 @@
+#effect give @a[distance=..1.7,gamemode=!creative,gamemode=!spectator] minecraft:resistance 1 3 true
+#effect give @a[distance=..1.7,gamemode=!creative,gamemode=!spectator] minecraft:instant_damage 1 1 true
+execute as @a[distance=..1.7,gamemode=!creative,gamemode=!spectator] at @s run summon minecraft:arrow ~ ~2.1 ~ {damage:1.0,pickup:0,Fire:100,Silent:1b,Color:-1,Tags:["t_kill_arrow"],PierceLevel:2}

@@ -10,7 +10,3 @@ https://minecraft.curseforge.com/projects/hammers-tinkery-datapack-addon
 https://minecraft.curseforge.com/projects/storage-solutions-datapack
 # Resource Pack
 https://minecraft.curseforge.com/projects/lapis-resources
-# Storage Solutions
-https://minecraft.curseforge.com/projects/storage-solutions-datapack
-# Resource Pack
-https://minecraft.curseforge.com/projects/lapis-resources

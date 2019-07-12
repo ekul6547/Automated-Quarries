@@ -1,0 +1,1 @@
+data modify entity @s Item.tag.display.color set from entity @e[tag=t_s_current,limit=1] ArmorItems[0].tag.Smeltery.TempItem.tag.TinkeryMat.color

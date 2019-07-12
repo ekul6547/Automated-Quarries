@@ -7,7 +7,7 @@ execute at @s if score #system WorkbenchCount matches 1 run execute unless data 
 
 execute at @s if score #system WorkbenchCount matches 1 run execute unless data block ~ ~0.5 ~ {Items:[{Slot:3b,id:"minecraft:diamond_shovel"}]} run scoreboard players set #system WorkbenchCount 0
 
-execute at @s if score #system WorkbenchCount matches 1 run execute unless data block ~ ~0.5 ~ {Items:[{Slot:4b,id:"minecraft:spider_eye",tag:{CustomModelData:100,Power:{current:1000}}}]} run scoreboard players set #system WorkbenchCount 0
+execute at @s if score #system WorkbenchCount matches 1 run execute unless data block ~ ~0.5 ~ {Items:[{Slot:4b,id:"minecraft:spider_eye",tag:{CustomModelData:102,Power:{current:1000}}}]} run scoreboard players set #system WorkbenchCount 0
 
 execute at @s if score #system WorkbenchCount matches 1 run execute unless data block ~ ~0.5 ~ {Items:[{Slot:5b,id:"minecraft:diamond_axe"}]} run scoreboard players set #system WorkbenchCount 0
 

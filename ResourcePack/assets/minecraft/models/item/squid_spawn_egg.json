@@ -17,6 +17,9 @@
 		{ "predicate": {"custom_model_data": 152}, "model": "storage:block/server"},
         { "predicate": {"custom_model_data": 1000}, "model": "tinkery:block/modifier"},
         { "predicate": {"custom_model_data": 1001}, "model": "tinkery:block/constructor"},
-        { "predicate": {"custom_model_data": 1002}, "model": "tinkery:block/blueprinter"}
+        { "predicate": {"custom_model_data": 1002}, "model": "tinkery:block/blueprinter"},
+        { "predicate": {"custom_model_data": 1003}, "model": "tinkery:block/smeltery"},
+        { "predicate": {"custom_model_data": 1004}, "model": "tinkery:block/smeltery_on"},
+        { "predicate": {"custom_model_data": 1100}, "model": "tinkery:block/materials/steel_block"}
     ]
 }

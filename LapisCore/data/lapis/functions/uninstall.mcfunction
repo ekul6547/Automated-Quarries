@@ -34,11 +34,15 @@ scoreboard objectives remove direction
 scoreboard objectives remove const
 
 scoreboard objectives remove LapisBook
+scoreboard objectives remove LapisStep
+scoreboard objectives remove LoggedOut
 
 #Admin Menu
 scoreboard objectives remove LapisAdminMenu
 scoreboard objectives remove LapisAdmin
 scoreboard objectives remove LapisAdmin2
+scoreboard objectives remove LapisOverride
+scoreboard objectives remove LapisBlockPlaced
 
 #Workbench
 #WorkbenchItems - 1 = no items, don't bother checking for crafting   -   0 = has items, check for crafting
@@ -46,4 +50,4 @@ scoreboard objectives remove WorkbenchItems
 scoreboard objectives remove WorkbenchCount
 
 
-tellraw @a ["",{"text":"Uninstalled "},{"text":"[LapisCore] v0.4","color":"dark_blue"},{"text":" By RE:Lapis","color":"gray"}]
+tellraw @a ["",{"text":"Uninstalled "},{"text":"[LapisCore] v0.5","color":"dark_blue"},{"text":" By RE:Lapis","color":"gray"}]

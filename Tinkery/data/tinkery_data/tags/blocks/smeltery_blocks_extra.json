@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#tinkery_data:smeltery_blocks",
+    "minecraft:barrel"
+  ]
+}

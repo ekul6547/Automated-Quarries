@@ -127,3 +127,36 @@ CustomModelData:[ (next mat is n*256 + 1000)
 
 Soulbound items
 Increase xp
+
+
+
+Smeltery:
+- Put stuff in top Slot
+- Recipes add to an array of stuff
+    - When making custom ingots, if only 1 type of ingot > just double the resources (so not Array[1] entry exists)
+    - If more than 1 material, create a "Custom Alloy" to be used for construction
+    
+- Call {smelt} function if item in slot 0 - 9
+    - 9 different smelt functions for slots 0 - 9
+
+
+Smeltery:{
+    Items:[
+        {
+            
+            TinkeryMat:{
+                id:"default_iron",
+                Material:"",
+                ToolDur:100,
+                ArmorDur:[0,0,0,0],
+                Addons:[
+                    {id:"",level:0,matbuild:0,next:0}
+                ]
+            },
+            Item:{
+                id:"",
+                Count:0
+            }
+        }
+    ]
+}

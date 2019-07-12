@@ -1,3 +1,4 @@
+scoreboard players set #look lookCount 25
 execute as @s run function lapis:util/look/lookat
 
 scoreboard players set #tinkeryhammer const 1
@@ -10,6 +11,8 @@ execute store result entity @e[tag=q_PDraw,limit=1] Pos[1] double 1 run scoreboa
 execute store result entity @e[tag=q_PDraw,limit=1] Pos[2] double 1 run scoreboard players get @s lookZ
 
 execute as @s run function tinkery_hammers:tick/hammer/facing
+
+#execute if entity @e[tag=q_PDraw,limit=1] run tellraw @p {"nbt":"Pos","entity":"@e[tag=q_PDraw,limit=1]"}
 
 execute at @e[tag=q_PDraw,limit=1] if score #tinkery t_dum4 matches 1.. if score #tinkery t_dum5 matches 1 run function tinkery_hammers:tick/hammer/shownorth
 execute at @e[tag=q_PDraw,limit=1] if score #tinkery t_dum4 matches 1.. if score #tinkery t_dum5 matches 2 run function tinkery_hammers:tick/hammer/showeast

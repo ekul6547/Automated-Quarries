@@ -1,0 +1,1 @@
+data modify block 0 1 0 Text1 set value '[{"score":{"name":"#tinkery","objective":"t_dum0"},"color":"blue","italic":false},{"text":" Units","color":"white","italic":false}]'

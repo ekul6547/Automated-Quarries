@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "minecraft:air",
+    "minecraft:cave_air",
+    "minecraft:void_air",
     "minecraft:water",
     "minecraft:lava",
     "#minecraft:small_flowers",
@@ -35,7 +37,9 @@
     "minecraft:dead_bush",
     "minecraft:fire",
     "minecraft:torch",
+    "minecraft:wall_torch",
     "minecraft:redstone_torch",
+    "minecraft:redstone_wall_torch",
     "minecraft:redstone_wire",
     "minecraft:repeater",
     "minecraft:comparator",

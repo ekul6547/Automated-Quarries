@@ -1,0 +1,6 @@
+{
+	"parent": "tinkery:item/cast/blank",
+	"textures": {
+		"show": "tinkery:item/cast/dust"
+	}
+}

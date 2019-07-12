@@ -6,6 +6,11 @@
 scoreboard players set #system WorkbenchCount 0
 #Tinkery
 execute as @s if score #system WorkbenchCount matches 0 run function tinkery:wbrecipes/blueprint_test
+execute as @s if score #system WorkbenchCount matches 0 run function tinkery:wbrecipes/valve_test
 execute as @s if score #system WorkbenchCount matches 0 run function tinkery:wbrecipes/blueprinter_test
 execute as @s if score #system WorkbenchCount matches 0 run function tinkery:wbrecipes/constructor_test
 execute as @s if score #system WorkbenchCount matches 0 run function tinkery:wbrecipes/modifier_test
+execute as @s if score #system WorkbenchCount matches 0 run function tinkery:wbrecipes/smeltery_test
+
+
+execute as @s if score #system WorkbenchCount matches 0 run function #tinkery_data:wbrecipes

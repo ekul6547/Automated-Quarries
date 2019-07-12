@@ -1,0 +1,1 @@
+summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:iron_ingot",Count:1b,tag:{CustomModelData:1000,display:{Name:'{"text":"Steel Ingot","italic":false}'},TinkeryMat:{id:"steel",color:9013641,ToolDur:664,ArmorDur:[301,324,351,262],Addons:[]}}}}

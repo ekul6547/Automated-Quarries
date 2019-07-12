@@ -39,4 +39,4 @@ scoreboard players set #storage pack_loaded 1
 execute unless score #storage s_id matches 1.. run scoreboard players set #storage s_id 1
 
 
-tellraw @a ["",{"text":"Loaded "},{"text":"[Storage Solutions] v0.4","color":"gold","clickEvent":{"action":"run_command","value":"/trigger StorageBook"},"hoverEvent":{"action":"show_text","value":"Click here to get the tutorial book"}},{"text":" By RE:Lapis","color":"gray"}]
+tellraw @a ["",{"text":"Loaded "},{"text":"[Storage Solutions] v0.5","color":"gold","clickEvent":{"action":"run_command","value":"/trigger StorageBook"},"hoverEvent":{"action":"show_text","value":"Click here to get the tutorial book"}},{"text":" By RE:Lapis","color":"gray"}]

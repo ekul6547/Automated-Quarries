@@ -52,13 +52,26 @@ scoreboard objectives add t_flint_steel minecraft.used:minecraft.flint_and_steel
 scoreboard objectives add t_fishing_rod minecraft.used:minecraft.fishing_rod
 scoreboard objectives add t_carrot_stick minecraft.used:minecraft.carrot_on_a_stick
 
+scoreboard objectives add t_horse_drop minecraft.dropped:minecraft.leather_horse_armor
+
+scoreboard objectives add t_sneaking minecraft.custom:minecraft.sneak_time
+
 scoreboard objectives add t_menu dummy
 scoreboard objectives add t_pre dummy
 
 scoreboard objectives add t_output dummy
 scoreboard objectives add t_output_pre dummy
 
+scoreboard objectives add t_smeltery_on dummy
+scoreboard objectives add t_s_level dummy
+scoreboard objectives add t_s_fuel dummy
+scoreboard objectives add t_s_fuel_count dummy
+scoreboard objectives add t_s_heat dummy
+scoreboard objectives add t_s_current dummy
+scoreboard objectives add t_s_capacity dummy
+scoreboard objectives add t_s_debug dummy
+
 scoreboard players set #tinker pack_loaded 1
 function tinkery:setmats
 
-tellraw @a ["",{"text":"Loaded "},{"text":"[Tinkery] v0.2","color":"green","clickEvent":{"action":"run_command","value":"/trigger TinkeryBook"},"hoverEvent":{"action":"show_text","value":"Click here to get the tutorial book"}},{"text":" By RE:Lapis","color":"gray"}]
+tellraw @a ["",{"text":"Loaded "},{"text":"[Tinkery] v0.3","color":"green","clickEvent":{"action":"run_command","value":"/trigger TinkeryBook"},"hoverEvent":{"action":"show_text","value":"Click here to get the tutorial book"}},{"text":" By RE:Lapis","color":"gray"}]
