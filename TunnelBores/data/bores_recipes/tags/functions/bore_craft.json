@@ -1,0 +1,11 @@
+{
+	"values": [
+		"bores_recipes:petty/test",
+		"bores_recipes:basic/test",
+		"bores_recipes:advanced/test",
+		"bores_recipes:elite/test",
+		"bores_recipes:ultimate/test",
+		"bores_recipes:cold/test",
+		"bores_recipes:slimey/test"
+	]
+}

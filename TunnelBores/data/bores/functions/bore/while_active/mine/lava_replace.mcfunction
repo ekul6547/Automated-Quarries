@@ -1,0 +1,16 @@
+execute if block ~ ~ ~ minecraft:lava[level=0] run setblock ~ ~ ~ minecraft:obsidian replace
+execute if block ~ ~ ~ minecraft:lava run setblock ~ ~ ~ minecraft:stone replace
+execute if block ~1 ~ ~ minecraft:lava[level=0] run setblock ~1 ~ ~ minecraft:obsidian replace
+execute if block ~1 ~ ~ minecraft:lava run setblock ~1 ~ ~ minecraft:stone replace
+execute if block ~-1 ~ ~ minecraft:lava[level=0] run setblock ~-1 ~ ~ minecraft:obsidian replace
+execute if block ~-1 ~ ~ minecraft:lava run setblock ~-1 ~ ~ minecraft:stone replace
+execute if block ~ ~ ~1 minecraft:lava[level=0] run setblock ~ ~ ~1 minecraft:obsidian replace
+execute if block ~ ~ ~1 minecraft:lava run setblock ~ ~ ~1 minecraft:stone replace
+execute if block ~ ~ ~-1 minecraft:lava[level=0] run setblock ~ ~ ~-1 minecraft:obsidian replace
+execute if block ~ ~ ~-1 minecraft:lava run setblock ~ ~ ~-1 minecraft:stone replace
+execute if block ~ ~1 ~ minecraft:lava[level=0] run setblock ~ ~1 ~ minecraft:obsidian replace
+execute if block ~ ~1 ~ minecraft:lava run setblock ~ ~1 ~ minecraft:stone replace
+execute if block ~ ~2 ~ minecraft:lava[level=0] run setblock ~ ~2 ~ minecraft:obsidian replace
+execute if block ~ ~2 ~ minecraft:lava run setblock ~ ~2 ~ minecraft:stone replace
+execute if block ~ ~-1 ~ minecraft:lava[level=0] run setblock ~ ~-1 ~ minecraft:obsidian replace
+execute if block ~ ~-1 ~ minecraft:lava run setblock ~ ~-1 ~ minecraft:stone replace

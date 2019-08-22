@@ -1,0 +1,29 @@
+Sync datapack form - seperate inventories
+
+- have a book of all their coordinates
+    - summon new book - replaceeitem in selecteditem with air
+        - get the pages of the previous book, copy them to new summoned book
+    - add new coordinates
+        - summon new book
+
+
+- on teleport
+    - save items to an armor-stand
+    - create a player head on the head
+    - copy armor to armor stand (except helmet)
+    - save coordinates to player's array
+    - tp to new coordinates
+    - create barrel with items - then destroy (hotbar, rows 1 & 2 in inventory)
+    - create second barrel with items - then destroy (row 3, armor and second hand)
+    - delete barrels, and armor stand
+
+
+
+Portal Gun
+    - Can an item_frame be half-way between blocks, so the portal is centered and the frame cannot be seen?
+    - Add a cooldown when exiting a portal
+
+
+Tunnel Bores
+    - Armor stand arms spinning
+    - Use leather helmet to make colours - lots of different materials

@@ -1,0 +1,17 @@
+{
+    "replace": false,
+    "values": [
+      "minecraft:lava",
+      "minecraft:redstone_ore",
+      "minecraft:redstone_block",
+      "minecraft:gold_ore",
+      "minecraft:gold_block",
+      "minecraft:nether_quartz_ore",
+      "minecraft:quartz_block",
+      "minecraft:chiseled_quartz_block",
+      "minecraft:quartz_pillar",
+      "minecraft:smooth_quartz",
+      "minecraft:ender_chest",
+      "#bores:level_3"
+    ]
+  }

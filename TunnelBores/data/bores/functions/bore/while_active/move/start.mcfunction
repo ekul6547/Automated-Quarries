@@ -1,0 +1,2 @@
+execute if score #bores.blockedhere const matches 0 unless block ~ ~-1 ~ #bores:airs run function bores:bore/while_active/move/test_direction
+execute if score @s bores.bridge matches 1.. run function bores:bore/while_active/bridge/start

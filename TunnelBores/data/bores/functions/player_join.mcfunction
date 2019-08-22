@@ -1,0 +1,1 @@
+tellraw @s ["",{"text":"Click [HERE] to get the Tunnel Bores book","color":"dark_purple","clickEvent":{"action":"run_command","value":"/trigger BoresBook"}}]

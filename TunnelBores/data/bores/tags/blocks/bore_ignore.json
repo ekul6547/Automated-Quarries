@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+      "#bores:airs",
+      "minecraft:scaffolding",
+      "minecraft:spawner",
+      "minecraft:water"
+    ]
+  }

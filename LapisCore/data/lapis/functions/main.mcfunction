@@ -15,6 +15,8 @@ execute as @a run function lapis:perplayer
 execute as @e[tag=Workbench] if score @s WorkbenchItems matches 0 run function #lapis:lapis_craft
 
 execute store success score #forceload pack_loaded run forceload query 0 0
+execute if score #lapis L_Age matches 1 if score #forceload pack_loaded matches 0 as @a run forceload add 0 0
+execute store success score #forceload pack_loaded run forceload query 0 0
 execute if score #lapis L_Age matches 1 if score #forceload pack_loaded matches 0 as @a run tellraw @s [{"text":"Please run command:"},{"text":"\n/forceload add 0 0","color":"blue","clickEvent":{"action":"run_command","value":"/forceload add 0 0"}}]
 
 function lapis:blocks/blockmain

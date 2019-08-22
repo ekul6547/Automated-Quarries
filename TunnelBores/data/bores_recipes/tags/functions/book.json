@@ -1,0 +1,11 @@
+{
+	"values": [
+		"bores_recipes:petty/book",
+		"bores_recipes:basic/book",
+		"bores_recipes:advanced/book",
+		"bores_recipes:elite/book",
+		"bores_recipes:ultimate/book",
+		"bores_recipes:slimey/book",
+		"bores_recipes:cold/book"
+	]
+}

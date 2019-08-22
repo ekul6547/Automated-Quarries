@@ -1,0 +1,4 @@
+execute as @s at @s run data modify block ~ ~0.5 ~ Items append value {id:"minecraft:barrier",Slot:8b,Count:1b,tag:{display:{Name:"{\"text\":\"Previous Server\"}"},MenuItem:1,CustomModelData:101}}
+execute at @s run function storage:system/menu/testforshulker
+execute as @s at @s unless score $storage.shulker s_shulker matches 1.. run data modify block ~ ~0.5 ~ Items append value {id:"minecraft:barrier",Slot:17b,Count:1b,tag:{display:{Name:"{\"text\":\"Place empty shulker box here\"}"},MenuItem:2,CustomModelData:105}}
+execute as @s at @s run data modify block ~ ~0.5 ~ Items append value {id:"minecraft:barrier",Slot:26b,Count:1b,tag:{display:{Name:"{\"text\":\"Next Server\"}"},MenuItem:3,CustomModelData:102}}

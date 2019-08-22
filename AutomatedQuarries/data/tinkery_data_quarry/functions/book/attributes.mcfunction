@@ -1,0 +1,1 @@
+data modify entity @e[type=item,tag=t_new_attr_book,limit=1] Item.tag.pages append value "[\"\",{\"text\":\"Chargeable\",\"color\":\"dark_green\"},{\"text\":\"\\n\\nApplies to all with durability.\",\"color\":\"none\"},{\"text\":\"\\n\\nAllows re-charging of item in a charger.\",\"color\":\"none\"},{\"text\":\"\\n\\nMaterial: Charged Battery\",\"color\":\"none\"}]"

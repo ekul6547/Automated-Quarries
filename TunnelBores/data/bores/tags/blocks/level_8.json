@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+      "#bores:level_9",
+      "minecraft:bedrock"
+    ]
+  }
