@@ -15,6 +15,7 @@
 		{ "predicate": {"custom_model_data": 150}, "model": "storage:block/controller"},
 		{ "predicate": {"custom_model_data": 151}, "model": "storage:block/terminal"},
 		{ "predicate": {"custom_model_data": 152}, "model": "storage:block/server"},
+        { "predicate": {"custom_model_data": 900}, "model": "bores:bore_inv"},
         { "predicate": {"custom_model_data": 1000}, "model": "tinkery:block/modifier"},
         { "predicate": {"custom_model_data": 1001}, "model": "tinkery:block/constructor"},
         { "predicate": {"custom_model_data": 1002}, "model": "tinkery:block/blueprinter"},

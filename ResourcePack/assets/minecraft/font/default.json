@@ -432,6 +432,67 @@
                 "\ued2f"
             ]
         },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/stone_pickaxe.png",
+            "ascent": 16,
+            "height": 24,
+            "chars": [
+                "\uecf0"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/iron_pickaxe.png",
+            "ascent": 16,
+            "height": 24,
+            "chars": [
+                "\uecf1"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/golden_pickaxe.png",
+            "ascent": 16,
+            "height": 24,
+            "chars": [
+                "\uecf2"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/obsidian.png",
+            "ascent": 16,
+            "height": 24,
+            "chars": [
+                "\uecf3"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/blue_ice.png",
+            "ascent": 16,
+            "height": 24,
+            "chars": [
+                "\uecf4"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/slime_block.png",
+            "ascent": 16,
+            "height": 24,
+            "chars": [
+                "\uecf5"
+            ]
+        },
+
+
+
+
+
+
+
 
 
 
@@ -1185,6 +1246,33 @@
             "height": 16,
             "chars": [
                 "\uedef"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/golden_pickaxe.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\uedf0"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/slime_block.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\uedf1"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:font/icon/blue_ice.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\uedf2"
             ]
         }
     ]

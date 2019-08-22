@@ -12,6 +12,8 @@
         { "predicate": {"custom_model_data": 105}, "model": "lapis:item/book/book_orange"},
         { "predicate": {"custom_model_data": 106}, "model": "lapis:item/book/book_yellow"},
         { "predicate": {"custom_model_data": 107}, "model": "lapis:item/book/book_gray"},
-        { "predicate": {"custom_model_data": 108}, "model": "lapis:item/book/book_white"}
+        { "predicate": {"custom_model_data": 108}, "model": "lapis:item/book/book_white"},
+        { "predicate": {"custom_model_data": 109}, "model": "lapis:item/book/book_dark_purple"},
+        { "predicate": {"custom_model_data": 110}, "model": "lapis:item/book/book_pink"}
     ]
 }
